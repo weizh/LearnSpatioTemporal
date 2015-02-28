@@ -1,8 +1,23 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.wynnzh</groupId>
-  <artifactId>com.wynnzh</artifactId>
-  <version>0.0.1-alpha</version>
-  <name>Temporal and Geospatial expressions disambiguation</name>
-  <description>A temporal and geospatial expressions disambiguation with FDMM model. The FDMM model is the latest version as in End of 2014, which is Viterbi inference. </description>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.wynnzh</groupId>
+	<artifactId>com.wynnzh</artifactId>
+	<version>0.0.1-alpha</version>
+	<name>Temporal and Geospatial expressions disambiguation</name>
+	<description>A temporal and geospatial expressions disambiguation with FDMM model. The FDMM model is the latest version as in End of 2014, which is Viterbi inference. </description>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.opennlp</groupId>
+			<artifactId>opennlp-tools</artifactId>
+			<version>1.5.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.opennlp</groupId>
+			<artifactId>opennlp-maxent</artifactId>
+			<version>3.0.3</version>
+		</dependency>
+	</dependencies>
+
 </project>
