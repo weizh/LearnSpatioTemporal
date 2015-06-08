@@ -1,0 +1,17 @@
+g geolocation indicator or modifier
+
+
+b building
+d date
+l location
+m movie
+o organization
+p person
+s street
+t time
+w web url.
+
+ub unnamed building
+us unnamed street
+
+[O] non tag.

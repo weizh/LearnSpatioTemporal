@@ -18,6 +18,22 @@
 			<artifactId>opennlp-maxent</artifactId>
 			<version>3.0.3</version>
 		</dependency>
+		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.5.2</version>
+			<classifier>models</classifier>
+		</dependency>
+		<dependency>
+			<groupId>edu.cmu.lti.weizh</groupId>
+			<artifactId>edu.cmu.lti.weizh.cda</artifactId>
+			<version>0.0.1</version>
+		</dependency>
 	</dependencies>
 
 </project>
