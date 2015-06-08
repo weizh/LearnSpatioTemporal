@@ -11,33 +11,29 @@ import edu.cmu.lti.weizh.docmodel.Sentence;
 import edu.cmu.lti.weizh.feature.FCONST;
 import edu.cmu.lti.weizh.io.Storable;
 
-public class EnsemblePercLearning extends Storable<EnsemblePercLearning>{
+public class EnsemblePercLearning extends Storable<EnsemblePercLearning> {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	
+
 	static Random r = new Random();
-	
-	public static List<ActiveLearner> createNewEnsemblesWithReplacement(FCONST.LEARNERTYPE type, DataSet d, int modelCount, double proportion)
-			throws Exception {
+
+	public static List<ActiveLearner> createNewEnsemblesWithReplacement(FCONST.LEARNERTYPE type, List<Sentence> totalSents,
+			List<Double> sentsWeights, int modelCount, double proportion) throws Exception {
 		List<ActiveLearner> learners = new ArrayList<ActiveLearner>(modelCount);
-		List<Sentence> totalSents = new ArrayList<Sentence>();
-		for (Document doc : d.getDocuments())
-			for (Paragraph para : doc.getParagraphs())
-				totalSents.addAll(para.getSentences());
 
 		double length = totalSents.size();
-		int toSampleLength = (int)(length * proportion);
-		
+		int toSampleLength = (int) (length * proportion);
+
 		for (int m = 0; m < modelCount; m++) {
-			
+
 			DataSet aDataSet = getEmptyDataSetWithSingleParagraph();
-			
+
 			for (int i = 0; i < toSampleLength; i++) {
-				int nextSentenceIndex = (int)(length* r.nextDouble());
-				setSentencesToDataSet(aDataSet,totalSents.get(nextSentenceIndex));
+				int nextSentenceIndex = (int) (length * r.nextDouble());
+				setSentencesToDataSet(aDataSet, totalSents.get(nextSentenceIndex));
 			}
 			ActiveLearner.setTypeBeforeCreate(type);
 			ActiveLearner aLearner = new ActiveLearner();
@@ -45,6 +41,21 @@ public class EnsemblePercLearning extends Storable<EnsemblePercLearning>{
 			learners.add(aLearner);
 		}
 		return learners;
+	}
+
+	public static void main(String[] arg) throws Exception {
+
+		DataSet d = new DataSet(0, null);
+
+		List<Sentence> totalSents = new ArrayList<Sentence>();
+		for (Document doc : d.getDocuments())
+			for (Paragraph para : doc.getParagraphs())
+				totalSents.addAll(para.getSentences());
+
+		double[] sentenceWeights = new double[totalSents.size()];
+		for (int i = 0; i < sentenceWeights.length; i++) {
+			sentenceWeights[i] = 1;
+		}
 	}
 
 	private static void setSentencesToDataSet(DataSet aDataSet, Sentence sampledSentence) {
@@ -57,10 +68,12 @@ public class EnsemblePercLearning extends Storable<EnsemblePercLearning>{
 	}
 
 	private static DataSet getEmptyDataSetWithSingleParagraph() {
-		
+
 		Paragraph p = new Paragraph();
-		Document doc = new Document(null); doc.addParagraph(p);
-		DataSet d =  new DataSet(1, null); d.getDocuments().add(doc);
+		Document doc = new Document(null);
+		doc.addParagraph(p);
+		DataSet d = new DataSet(1, null);
+		d.getDocuments().add(doc);
 		return d;
 	}
 

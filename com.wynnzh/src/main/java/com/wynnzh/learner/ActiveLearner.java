@@ -67,42 +67,50 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, Data
 
 	@Override
 	protected String getGoldLabel(Word w) {
-		String i = w.getEntityType();
+
 		if (type.equals(FCONST.LEARNERTYPE.WebCrawl)) {
+			String i = w.getEntityType();
 			if (i == null)
 				return "[O]";
 			if (i.equalsIgnoreCase("o"))
 				return "ORG";
+		} else if (type.equals(FCONST.LEARNERTYPE.CONLL2KChunking)) {
+			return w.getChunkType();
+		} else if (type.equals(FCONST.LEARNERTYPE.CONLL2kPOS)) {
+			return w.getPartOfSpeech();
+		} else if (type.equals(FCONST.LEARNERTYPE.OntoNotesNewsNER)) {
+			return w.getEntityType();
 		}
-		return i;
+		return null;
 	}
 
 	@Override
 	protected ActiveLearner self() {
 		return this;
 	}
-	
-	public void train(int t, double th) throws Exception{
-		this.setT(T);
+
+	public void train(int t, double th) throws Exception {
+		this.setT(t);
 		this.setThreshold(th);
 		DataSet d = new DataSet(100, null);
 		Document doc = new Document(null);
 		Paragraph p = new Paragraph();
-		d.getDocuments().add(doc); doc.addParagraph(p);
+		d.getDocuments().add(doc);
+		doc.addParagraph(p);
 		p.getSentences().addAll(this.trainedSentences);
 		super.train(d);
 	}
-	
-	public void train(DataSet t){
+
+	public void train(DataSet t) {
 		throw new UnsupportedOperationException("Should call train(int t, double th).");
 	}
-	
-	public void train(DataSet d, int t, double th) throws Exception{
+
+	public void train(DataSet d, int t, double th) throws Exception {
 		throw new UnsupportedOperationException("Should call train(int t, double th).");
 	}
 
 	public void addTrainingSentence(Sentence value) {
 		this.trainedSentences.add(value);
-		
+
 	}
 }
