@@ -10,6 +10,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+import edu.cmu.lti.weizh.docmodel.DataSet;
 import edu.cmu.lti.weizh.docmodel.Document;
 import edu.cmu.lti.weizh.docmodel.Paragraph;
 import model.SentenceSample;
@@ -99,8 +100,8 @@ public class RandomSampler implements Serializable {
 		return t;
 	}
 
-	public WCDataSet getTestSentsAsDataSet() {
-		WCDataSet d = new WCDataSet(0, null);
+	public DataSet getTestSentsAsDataSet() {
+		DataSet d = new DataSet(0, null);
 		d.getDocuments().add(new Document(null));
 		d.getDocuments().get(0).addParagraph(new Paragraph());
 		Paragraph p = null;

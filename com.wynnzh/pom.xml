@@ -7,6 +7,20 @@
 	<name>Temporal and Geospatial expressions disambiguation</name>
 	<description>A temporal and geospatial expressions disambiguation with FDMM model. The FDMM model is the latest version as in End of 2014, which is Viterbi inference. </description>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.opennlp</groupId>

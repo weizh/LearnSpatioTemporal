@@ -1,12 +1,11 @@
 package com.wynnzh.learner;
 
-import com.wynnzh.data.WCDataSet;
-
+import edu.cmu.lti.weizh.docmodel.DataSet;
 import edu.cmu.lti.weizh.train.AbstractPercEval;
 
-public class ActiveEvaluator extends AbstractPercEval<String, WCDataSet, ActiveLearner> {
+public class ActiveEvaluator extends AbstractPercEval<String, DataSet, ActiveNERLearner> {
 
-	protected ActiveEvaluator(ActiveLearner trainer) {
+	protected ActiveEvaluator(ActiveNERLearner trainer) {
 		super(trainer);
 	}
 

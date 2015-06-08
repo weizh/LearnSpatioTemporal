@@ -3,17 +3,14 @@ package com.wynnzh.learner;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.wynnzh.data.WCDataSet;
-
-import edu.cmu.lti.weizh.docmodel.Document;
-import edu.cmu.lti.weizh.docmodel.Paragraph;
+import edu.cmu.lti.weizh.docmodel.DataSet;
 import edu.cmu.lti.weizh.docmodel.Sentence;
 import edu.cmu.lti.weizh.docmodel.Word;
 import edu.cmu.lti.weizh.feature.FCONST;
 import edu.cmu.lti.weizh.mlmodel.PerceptronFDMM;
 import edu.cmu.lti.weizh.train.AbstractPercTrain;
 
-public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, WCDataSet> {
+public class ActiveNERLearner extends AbstractPercTrain<String, ActiveNERLearner, DataSet> {
 
 	/**
 	 * 
@@ -58,7 +55,7 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, WCDa
 
 	}
 
-	ActiveLearner() {
+	ActiveNERLearner() {
 		super(thetaHeaders, thd, tvd, featureHeaders, fhd, fvd);
 		trainedSentences = new ArrayList<Sentence>();
 	}
@@ -71,22 +68,6 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, WCDa
 	}
 
 	@Override
-	protected List<Sentence> getSentences(WCDataSet d) {
-		List<Sentence> sent = new ArrayList<Sentence>();
-		for (Document doc : d.getDocuments()) {
-			try {
-				for (Paragraph para : doc.getParagraphs()) {
-					sent.addAll(para.getSentences());
-				}
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		return sent;
-	}
-
-	@Override
 	protected String getGoldLabel(Word w) {
 		String i = w.getEntityType();
 		 if (i==null) return "[O]";
@@ -95,7 +76,7 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, WCDa
 	}
 
 	@Override
-	protected ActiveLearner self() {
+	protected ActiveNERLearner self() {
 
 		return this;
 	}
