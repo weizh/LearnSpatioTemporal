@@ -1,12 +1,11 @@
 package com.wynnzh.learner;
 
-import java.util.ArrayList;
 import java.util.List;
+
+import com.wynnzh.Utils;
 
 import edu.cmu.lti.weizh.data.DataFactory;
 import edu.cmu.lti.weizh.docmodel.DataSet;
-import edu.cmu.lti.weizh.docmodel.Document;
-import edu.cmu.lti.weizh.docmodel.Paragraph;
 import edu.cmu.lti.weizh.docmodel.Sentence;
 import edu.cmu.lti.weizh.feature.FCONST.LEARNERTYPE;
 
@@ -16,7 +15,7 @@ public class RandomPercLearningDataSet {
 		
 		DataSet  train = DataFactory.getCONLL2kTrain();
 		DataSet  test = DataFactory.getCONLL2kTest();
-		List<Sentence> sents = getSentences(train);
+		List<Sentence> sents = Utils.getSentences(train);
 		
 		ActiveLearner.setTypeBeforeCreate(LEARNERTYPE.CONLL2KChunking);
 		ActiveLearner aner = new ActiveLearner();
@@ -33,17 +32,5 @@ public class RandomPercLearningDataSet {
 		}
 	}
 
-	private static List<Sentence> getSentences(DataSet d) {
-		List<Sentence> sent = new ArrayList<Sentence>();
-		for (Document doc : d.getDocuments())
-			try {
-				for (Paragraph p : doc.getParagraphs()){
-					sent.addAll(p.getSentences());
-				}
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		return sent;
-	}
+	
 }
