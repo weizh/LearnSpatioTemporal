@@ -8,14 +8,9 @@ import com.wynnzh.data.RandomSampler;
 
 import edu.cmu.lti.weizh.docmodel.DataSet;
 import edu.cmu.lti.weizh.docmodel.Document;
-import edu.cmu.lti.weizh.docmodel.Paragraph;
+import edu.cmu.lti.weizh.feature.FCONST.LEARNERTYPE;
 
-public class RandomLearning {
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 2400041746089127990L;
+public class RandomPercLearningWCDataSet {
 
 	public static void main(String argv[]) throws Exception{
 		RandomSampler samples =  RandomSampler.load("src/main/resources/dataObjects/SuffledEnhancedTrainTestData.randomsampler");
@@ -26,23 +21,19 @@ public class RandomLearning {
 		
 		DataSet runningData = new DataSet(1, "Running DataSet in each iteration.");
 		runningData.getDocuments().add(new Document("Running doc in dataset"));
-		Document runningDoc = runningData.getDocuments().get(0);
-		runningDoc.addParagraph(new Paragraph());
-		Paragraph runningPara = runningDoc.getParagraphs().get(0);
 		
-		ActiveNERLearner aner = new ActiveNERLearner();
+		ActiveLearner.setTypeBeforeCreate(LEARNERTYPE.OntoNotesNewsNER);
+		ActiveLearner aner = new ActiveLearner();
 		
 		int T= 1000;int t = 0 ;
 		for (SentenceSample s : test) if ((t++)<T){
 			System.out.print("Iteration "+ t +"\n");
-			aner.getSentences().add(s.getValue());
-			runningPara.addSentence(s.getValue());
 			aner.resetModel();
-			aner.train(runningData, 100, 1E-10);
+			aner.addTrainingSentence(s.getValue());
+			aner.train(100, 1E-10);
 			
 			ActiveEvaluator eval = new ActiveEvaluator(aner);
 			eval.evaluate(testData);
 		}
 	}
-
 }
