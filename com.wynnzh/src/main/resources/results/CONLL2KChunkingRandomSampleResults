@@ -1,0 +1,2401 @@
+Iteration 1
+Ran 7 iterations, total processed 7 sentences.
+42434.0 41197.0 21418.0
+System total recall: 0.5198922251620264
+System total precision: 0.5047367676862893
+System total F1: 0.5122024129808325
+Iteration 2
+Ran 6 iterations, total processed 12 sentences.
+42771.0 41197.0 24701.0
+System total recall: 0.5995824938709129
+System total precision: 0.5775174767950246
+System total F1: 0.5883431783536586
+Iteration 3
+Ran 11 iterations, total processed 33 sentences.
+42224.0 41197.0 23463.0
+System total recall: 0.5695317620215065
+System total precision: 0.555679234558545
+System total F1: 0.5625202287193872
+Iteration 4
+Ran 7 iterations, total processed 28 sentences.
+42440.0 41197.0 25276.0
+System total recall: 0.6135398208607423
+System total precision: 0.5955702167766258
+System total F1: 0.6044214880973732
+Iteration 5
+Ran 8 iterations, total processed 40 sentences.
+41997.0 41197.0 26930.0
+System total recall: 0.6536883753671384
+System total precision: 0.6412362787818178
+System total F1: 0.6474024569079501
+Iteration 6
+Ran 7 iterations, total processed 42 sentences.
+41591.0 41197.0 28516.0
+System total recall: 0.6921863242469112
+System total precision: 0.6856291024500493
+System total F1: 0.6888921099676282
+Iteration 7
+Ran 8 iterations, total processed 56 sentences.
+40029.0 41197.0 28211.0
+System total recall: 0.6847828725392626
+System total precision: 0.7047640460666017
+System total F1: 0.6946297983404328
+Iteration 8
+Ran 8 iterations, total processed 64 sentences.
+40369.0 41197.0 28470.0
+System total recall: 0.6910697380877249
+System total precision: 0.705244122965642
+System total F1: 0.6980849863913886
+Iteration 9
+Ran 6 iterations, total processed 54 sentences.
+41072.0 41197.0 29035.0
+System total recall: 0.704784328955992
+System total precision: 0.7069292948967667
+System total F1: 0.7058551823894784
+Iteration 10
+Ran 13 iterations, total processed 130 sentences.
+40793.0 41197.0 29407.0
+System total recall: 0.7138141126781077
+System total precision: 0.720883484911627
+System total F1: 0.7173313818758386
+Iteration 11
+Ran 11 iterations, total processed 121 sentences.
+39876.0 41197.0 29335.0
+System total recall: 0.7120664126028594
+System total precision: 0.735655532149664
+System total F1: 0.7236687923229682
+Iteration 12
+Ran 10 iterations, total processed 120 sentences.
+40526.0 41197.0 30162.0
+System total recall: 0.7321406898560575
+System total precision: 0.7442629423086413
+System total F1: 0.7381520502184208
+Iteration 13
+Ran 6 iterations, total processed 78 sentences.
+40752.0 41197.0 30196.0
+System total recall: 0.7329659926693691
+System total precision: 0.7409697683549273
+System total F1: 0.7369461494344043
+Iteration 14
+Ran 10 iterations, total processed 140 sentences.
+40040.0 41197.0 31144.0
+System total recall: 0.7559773769934705
+System total precision: 0.7778221778221778
+System total F1: 0.7667442175363443
+Iteration 15
+Ran 11 iterations, total processed 165 sentences.
+40354.0 41197.0 31224.0
+System total recall: 0.7579192659659684
+System total precision: 0.773752292213907
+System total F1: 0.7657539453838702
+Iteration 16
+Ran 9 iterations, total processed 144 sentences.
+40403.0 41197.0 31122.0
+System total recall: 0.7554433575260334
+System total precision: 0.770289334950375
+System total F1: 0.7627941176470588
+Iteration 17
+Ran 7 iterations, total processed 119 sentences.
+40171.0 41197.0 30529.0
+System total recall: 0.741049105517392
+System total precision: 0.7599761021632521
+System total F1: 0.750393274997542
+Iteration 18
+Ran 10 iterations, total processed 180 sentences.
+40876.0 41197.0 30384.0
+System total recall: 0.7375294317547394
+System total precision: 0.7433212643115765
+System total F1: 0.7404140216636409
+Iteration 19
+Ran 9 iterations, total processed 171 sentences.
+40519.0 41197.0 30535.0
+System total recall: 0.7411947471903294
+System total precision: 0.753597077914065
+System total F1: 0.7473444613050075
+Iteration 20
+Ran 14 iterations, total processed 280 sentences.
+35185.0 41197.0 29067.0
+System total recall: 0.7055610845449911
+System total precision: 0.8261190848372886
+System total F1: 0.7610955460710639
+Iteration 21
+Ran 12 iterations, total processed 252 sentences.
+39364.0 41197.0 31261.0
+System total recall: 0.7588173896157487
+System total precision: 0.7941520170714358
+System total F1: 0.7760827199265153
+Iteration 22
+Ran 10 iterations, total processed 220 sentences.
+38365.0 41197.0 31713.0
+System total recall: 0.7697890623103624
+System total precision: 0.8266127981232895
+System total F1: 0.7971896131318972
+Iteration 23
+Ran 6 iterations, total processed 138 sentences.
+38360.0 41197.0 31647.0
+System total recall: 0.7681870039080515
+System total precision: 0.825
+System total F1: 0.7955805271691995
+Iteration 24
+Ran 9 iterations, total processed 216 sentences.
+37467.0 41197.0 30984.0
+System total recall: 0.7520935990484744
+System total precision: 0.8269677316038113
+System total F1: 0.7877555171361741
+Iteration 25
+Ran 9 iterations, total processed 225 sentences.
+38810.0 41197.0 31759.0
+System total recall: 0.7709056484695488
+System total precision: 0.818320020613244
+System total F1: 0.7939055332658392
+Iteration 26
+Ran 6 iterations, total processed 156 sentences.
+40144.0 41197.0 32898.0
+System total recall: 0.798553292715489
+System total precision: 0.8194998007174173
+System total F1: 0.8088909651959036
+Iteration 27
+Ran 11 iterations, total processed 297 sentences.
+40408.0 41197.0 33071.0
+System total recall: 0.802752627618516
+System total precision: 0.8184270441496734
+System total F1: 0.81051406163838
+Iteration 28
+Ran 6 iterations, total processed 168 sentences.
+40049.0 41197.0 32555.0
+System total recall: 0.7902274437459038
+System total precision: 0.812879222951884
+System total F1: 0.8013932993624302
+Iteration 29
+Ran 11 iterations, total processed 319 sentences.
+40556.0 41197.0 33363.0
+System total recall: 0.8098405223681336
+System total precision: 0.8226402998323306
+System total F1: 0.8161902315511358
+Iteration 30
+Ran 5 iterations, total processed 150 sentences.
+39276.0 41197.0 32124.0
+System total recall: 0.7797655169065709
+System total precision: 0.8179040635502597
+System total F1: 0.7983795807289401
+Iteration 31
+Ran 8 iterations, total processed 248 sentences.
+40476.0 41197.0 33212.0
+System total recall: 0.8061752069325436
+System total precision: 0.820535626050005
+System total F1: 0.8132920304139679
+Iteration 32
+Ran 10 iterations, total processed 320 sentences.
+40185.0 41197.0 32802.0
+System total recall: 0.7962230259484914
+System total precision: 0.816274729376633
+System total F1: 0.8061242043695166
+Iteration 33
+Ran 8 iterations, total processed 264 sentences.
+40819.0 41197.0 33776.0
+System total recall: 0.8198655241886545
+System total precision: 0.8274578015140008
+System total F1: 0.8236441669918064
+Iteration 34
+Ran 8 iterations, total processed 272 sentences.
+40360.0 41197.0 33633.0
+System total recall: 0.8163943976503143
+System total precision: 0.8333250743310208
+System total F1: 0.8247728582463798
+Iteration 35
+Ran 8 iterations, total processed 280 sentences.
+40537.0 41197.0 33292.0
+System total recall: 0.8081170959050417
+System total precision: 0.8212743912968399
+System total F1: 0.8146426211857978
+Iteration 36
+Ran 14 iterations, total processed 504 sentences.
+40288.0 41197.0 33519.0
+System total recall: 0.8136272058645047
+System total precision: 0.831984710087371
+System total F1: 0.8227035650733264
+Iteration 37
+Ran 13 iterations, total processed 481 sentences.
+39917.0 41197.0 33402.0
+System total recall: 0.8107871932422264
+System total precision: 0.8367863316381492
+System total F1: 0.8235816258599009
+Iteration 38
+Ran 11 iterations, total processed 418 sentences.
+39266.0 41197.0 32995.0
+System total recall: 0.8009078330946429
+System total precision: 0.8402944022818724
+System total F1: 0.8201285062699626
+Iteration 39
+Ran 12 iterations, total processed 468 sentences.
+39526.0 41197.0 33190.0
+System total recall: 0.8056411874651067
+System total precision: 0.8397004503364873
+System total F1: 0.8223182983784052
+Iteration 40
+Ran 13 iterations, total processed 520 sentences.
+40314.0 41197.0 34371.0
+System total recall: 0.8343083234216083
+System total precision: 0.8525822294984373
+System total F1: 0.8433462968188342
+Iteration 41
+Ran 10 iterations, total processed 410 sentences.
+40528.0 41197.0 34127.0
+System total recall: 0.8283855620554895
+System total precision: 0.8420598105013818
+System total F1: 0.8351667176506576
+Iteration 42
+Ran 4 iterations, total processed 168 sentences.
+40183.0 41197.0 33946.0
+System total recall: 0.8239920382552127
+System total precision: 0.8447851081303038
+System total F1: 0.8342590317031212
+Iteration 43
+Ran 9 iterations, total processed 387 sentences.
+41402.0 41197.0 34667.0
+System total recall: 0.8414933126198509
+System total precision: 0.8373266991932757
+System total F1: 0.8394048354096296
+Iteration 44
+Ran 7 iterations, total processed 308 sentences.
+41433.0 41197.0 34907.0
+System total recall: 0.8473189795373449
+System total precision: 0.8424926990563077
+System total F1: 0.8448989471136391
+Iteration 45
+Ran 9 iterations, total processed 405 sentences.
+41293.0 41197.0 35097.0
+System total recall: 0.8519309658470277
+System total precision: 0.8499503547816821
+System total F1: 0.8509395078191296
+Iteration 46
+Ran 16 iterations, total processed 736 sentences.
+41368.0 41197.0 34885.0
+System total recall: 0.846784960069908
+System total precision: 0.8432846644749565
+System total F1: 0.8450311875492037
+Iteration 47
+Ran 10 iterations, total processed 470 sentences.
+41620.0 41197.0 35160.0
+System total recall: 0.8534602034128699
+System total precision: 0.8447861604997597
+System total F1: 0.8491010299817671
+Iteration 48
+Ran 8 iterations, total processed 384 sentences.
+41440.0 41197.0 34983.0
+System total recall: 0.849163774061218
+System total precision: 0.8441843629343629
+System total F1: 0.8466667473407795
+Iteration 49
+Ran 9 iterations, total processed 441 sentences.
+41708.0 41197.0 34541.0
+System total recall: 0.8384348374881666
+System total precision: 0.8281624628368658
+System total F1: 0.8332669923406308
+Iteration 50
+Ran 8 iterations, total processed 400 sentences.
+41551.0 41197.0 34540.0
+System total recall: 0.8384105638760104
+System total precision: 0.8312675988544199
+System total F1: 0.8348238023879732
+Iteration 51
+Ran 13 iterations, total processed 663 sentences.
+41387.0 41197.0 34430.0
+System total recall: 0.8357404665388256
+System total precision: 0.831903737888709
+System total F1: 0.8338176886563984
+Iteration 52
+Ran 8 iterations, total processed 416 sentences.
+41749.0 41197.0 34292.0
+System total recall: 0.8323907080612666
+System total precision: 0.8213849433519366
+System total F1: 0.826851204398042
+Iteration 53
+Ran 10 iterations, total processed 530 sentences.
+41554.0 41197.0 34989.0
+System total recall: 0.8493094157341554
+System total precision: 0.8420128026182798
+System total F1: 0.8456453698444731
+Iteration 54
+Ran 11 iterations, total processed 594 sentences.
+41316.0 41197.0 34835.0
+System total recall: 0.8455712794620968
+System total precision: 0.8431358311550005
+System total F1: 0.8443517991104432
+Iteration 55
+Ran 13 iterations, total processed 715 sentences.
+41428.0 41197.0 35272.0
+System total recall: 0.856178847974367
+System total precision: 0.8514048469634063
+System total F1: 0.8537851739788199
+Iteration 56
+Ran 6 iterations, total processed 336 sentences.
+41495.0 41197.0 34911.0
+System total recall: 0.8474160739859699
+System total precision: 0.8413302807567177
+System total F1: 0.8443622115803222
+Iteration 57
+Ran 12 iterations, total processed 684 sentences.
+41282.0 41197.0 34979.0
+System total recall: 0.8490666796125932
+System total precision: 0.8473184438738434
+System total F1: 0.848191660907625
+Iteration 58
+Ran 10 iterations, total processed 580 sentences.
+41594.0 41197.0 34855.0
+System total recall: 0.8460567517052212
+System total precision: 0.8379814396307159
+System total F1: 0.8419997342706332
+Iteration 59
+Ran 11 iterations, total processed 649 sentences.
+41816.0 41197.0 34783.0
+System total recall: 0.844309051629973
+System total precision: 0.8318107901281806
+System total F1: 0.8380133232144363
+Iteration 60
+Ran 18 iterations, total processed 1080 sentences.
+41619.0 41197.0 35398.0
+System total recall: 0.8592373231060514
+System total precision: 0.8505250006006871
+System total F1: 0.8548589644513137
+Iteration 61
+Ran 14 iterations, total processed 854 sentences.
+41813.0 41197.0 34901.0
+System total recall: 0.8471733378644076
+System total precision: 0.8346925597302275
+System total F1: 0.8408866401638356
+Iteration 62
+Ran 12 iterations, total processed 744 sentences.
+42261.0 41197.0 35378.0
+System total recall: 0.8587518508629269
+System total precision: 0.8371311611178155
+System total F1: 0.8478036856862134
+Iteration 63
+Ran 10 iterations, total processed 630 sentences.
+41983.0 41197.0 35109.0
+System total recall: 0.8522222491929023
+System total precision: 0.8362670604768597
+System total F1: 0.8441692714594855
+Iteration 64
+Ran 16 iterations, total processed 1024 sentences.
+41967.0 41197.0 35527.0
+System total recall: 0.8623686190742045
+System total precision: 0.8465460957418924
+System total F1: 0.8543841085084892
+Iteration 65
+Ran 21 iterations, total processed 1365 sentences.
+41556.0 41197.0 35200.0
+System total recall: 0.8544311478991189
+System total precision: 0.8470497641736452
+System total F1: 0.8507244450352253
+Iteration 66
+Ran 20 iterations, total processed 1320 sentences.
+41556.0 41197.0 35313.0
+System total recall: 0.8571740660727722
+System total precision: 0.8497689864279526
+System total F1: 0.8534554638502532
+Iteration 67
+Ran 17 iterations, total processed 1139 sentences.
+41506.0 41197.0 35309.0
+System total recall: 0.8570769716241474
+System total precision: 0.850696284874476
+System total F1: 0.8538747082935323
+Iteration 68
+Ran 13 iterations, total processed 884 sentences.
+41502.0 41197.0 35545.0
+System total recall: 0.8628055440930165
+System total precision: 0.8564647486868103
+System total F1: 0.8596234537297912
+Iteration 69
+Ran 11 iterations, total processed 759 sentences.
+41412.0 41197.0 35066.0
+System total recall: 0.8511784838701847
+System total precision: 0.8467593934125375
+System total F1: 0.8489631880303599
+Iteration 70
+Ran 23 iterations, total processed 1610 sentences.
+40992.0 41197.0 34948.0
+System total recall: 0.8483141976357502
+System total precision: 0.8525565964090555
+System total F1: 0.8504301062185937
+Iteration 71
+Ran 17 iterations, total processed 1207 sentences.
+41295.0 41197.0 35455.0
+System total recall: 0.8606209189989562
+System total precision: 0.8585785204019857
+System total F1: 0.8595985065218446
+Iteration 72
+Ran 16 iterations, total processed 1152 sentences.
+41526.0 41197.0 35346.0
+System total recall: 0.8579750952739277
+System total precision: 0.8511775754948707
+System total F1: 0.8545628180796151
+Iteration 73
+Ran 16 iterations, total processed 1168 sentences.
+41874.0 41197.0 35257.0
+System total recall: 0.8558147437920237
+System total precision: 0.8419783159000812
+System total F1: 0.8488401487883859
+Iteration 74
+Ran 21 iterations, total processed 1554 sentences.
+41909.0 41197.0 35026.0
+System total recall: 0.8502075393839357
+System total precision: 0.8357632012216947
+System total F1: 0.8429234952951652
+Iteration 75
+Ran 23 iterations, total processed 1725 sentences.
+41184.0 41197.0 35314.0
+System total recall: 0.8571983396849285
+System total precision: 0.8574689199689199
+System total F1: 0.8573336084776829
+Iteration 76
+Ran 21 iterations, total processed 1596 sentences.
+41550.0 41197.0 35605.0
+System total recall: 0.8642619608223899
+System total precision: 0.8569193742478941
+System total F1: 0.8605750057403894
+Iteration 77
+Ran 14 iterations, total processed 1078 sentences.
+42278.0 41197.0 35525.0
+System total recall: 0.862320071849892
+System total precision: 0.8402715360234637
+System total F1: 0.8511530398322851
+Iteration 78
+Ran 22 iterations, total processed 1716 sentences.
+41178.0 41197.0 35758.0
+System total recall: 0.8679758234822924
+System total precision: 0.8683763174510661
+System total F1: 0.8681760242792109
+Iteration 79
+Ran 21 iterations, total processed 1659 sentences.
+41406.0 41197.0 35868.0
+System total recall: 0.8706459208194771
+System total precision: 0.8662512679321838
+System total F1: 0.8684430347566069
+Iteration 80
+Ran 19 iterations, total processed 1520 sentences.
+41912.0 41197.0 35533.0
+System total recall: 0.8625142607471418
+System total precision: 0.8478001527008971
+System total F1: 0.8550939128132934
+Iteration 81
+Ran 11 iterations, total processed 891 sentences.
+41035.0 41197.0 35078.0
+System total recall: 0.8514697672160594
+System total precision: 0.8548312416230047
+System total F1: 0.8531471933067419
+Iteration 82
+Ran 16 iterations, total processed 1312 sentences.
+41230.0 41197.0 35890.0
+System total recall: 0.8711799402869141
+System total precision: 0.8704826582585496
+System total F1: 0.8708311596928191
+Iteration 83
+Ran 19 iterations, total processed 1577 sentences.
+41079.0 41197.0 35730.0
+System total recall: 0.8672961623419181
+System total precision: 0.8697874826553713
+System total F1: 0.8685400359764694
+Iteration 84
+Ran 9 iterations, total processed 756 sentences.
+41214.0 41197.0 35071.0
+System total recall: 0.8512998519309658
+System total precision: 0.8509487067501335
+System total F1: 0.851124243122884
+Iteration 85
+Ran 14 iterations, total processed 1190 sentences.
+41572.0 41197.0 35764.0
+System total recall: 0.8681214651552297
+System total precision: 0.8602905801982104
+System total F1: 0.8641882830528338
+Iteration 86
+Ran 27 iterations, total processed 2322 sentences.
+42150.0 41197.0 34572.0
+System total recall: 0.8391873194650096
+System total precision: 0.8202135231316726
+System total F1: 0.829591946920705
+Iteration 87
+Ran 16 iterations, total processed 1392 sentences.
+41649.0 41197.0 35672.0
+System total recall: 0.8658882928368571
+System total precision: 0.8564911522485534
+System total F1: 0.8611640875841924
+Iteration 88
+Ran 17 iterations, total processed 1496 sentences.
+41333.0 41197.0 35281.0
+System total recall: 0.8563973104837731
+System total precision: 0.8535794643505189
+System total F1: 0.8549860656730885
+Iteration 89
+Ran 26 iterations, total processed 2314 sentences.
+41445.0 41197.0 34945.0
+System total recall: 0.8482413767992815
+System total precision: 0.8431656412112438
+System total F1: 0.8456958931294015
+Iteration 90
+Ran 18 iterations, total processed 1620 sentences.
+41508.0 41197.0 35356.0
+System total recall: 0.85821783139549
+System total precision: 0.851787607208249
+System total F1: 0.8549906293452633
+Iteration 91
+Ran 15 iterations, total processed 1365 sentences.
+41542.0 41197.0 35550.0
+System total recall: 0.8629269121537976
+System total precision: 0.8557604352221848
+System total F1: 0.859328732520335
+Iteration 92
+Ran 9 iterations, total processed 828 sentences.
+41378.0 41197.0 35398.0
+System total recall: 0.8592373231060514
+System total precision: 0.8554787568272996
+System total F1: 0.8573539206781714
+Iteration 93
+Ran 16 iterations, total processed 1488 sentences.
+41502.0 41197.0 35510.0
+System total recall: 0.8619559676675486
+System total precision: 0.8556214158353814
+System total F1: 0.8587770106047231
+Iteration 94
+Ran 13 iterations, total processed 1222 sentences.
+41681.0 41197.0 35794.0
+System total recall: 0.8688496735199165
+System total precision: 0.8587605863582928
+System total F1: 0.8637756702623133
+Iteration 95
+Ran 21 iterations, total processed 1995 sentences.
+41122.0 41197.0 35559.0
+System total recall: 0.8631453746632036
+System total precision: 0.8647196148047274
+System total F1: 0.8639317775969095
+Iteration 96
+Ran 14 iterations, total processed 1344 sentences.
+41554.0 41197.0 35188.0
+System total recall: 0.8541398645532442
+System total precision: 0.8468017519372383
+System total F1: 0.8504549793960193
+Iteration 97
+Ran 16 iterations, total processed 1552 sentences.
+41109.0 41197.0 35817.0
+System total recall: 0.8694079665995097
+System total precision: 0.8712690651682113
+System total F1: 0.8703375209583748
+Iteration 98
+Ran 29 iterations, total processed 2842 sentences.
+41391.0 41197.0 35202.0
+System total recall: 0.8544796951234314
+System total precision: 0.8504747408856997
+System total F1: 0.852472514166707
+Iteration 99
+Ran 10 iterations, total processed 990 sentences.
+41889.0 41197.0 35680.0
+System total recall: 0.8660824817341068
+System total precision: 0.8517749289789682
+System total F1: 0.8588691235587222
+Iteration 100
+Ran 13 iterations, total processed 1300 sentences.
+41863.0 41197.0 35568.0
+System total recall: 0.8633638371726097
+System total precision: 0.8496285502711225
+System total F1: 0.8564411268962197
+Iteration 101
+Ran 14 iterations, total processed 1414 sentences.
+41495.0 41197.0 35646.0
+System total recall: 0.8652571789207952
+System total precision: 0.8590432582238824
+System total F1: 0.8621390219126397
+Iteration 102
+Ran 16 iterations, total processed 1632 sentences.
+41186.0 41197.0 35918.0
+System total recall: 0.8718596014272884
+System total precision: 0.8720924586024377
+System total F1: 0.8719760144690045
+Iteration 103
+Ran 9 iterations, total processed 927 sentences.
+41735.0 41197.0 35890.0
+System total recall: 0.8711799402869141
+System total precision: 0.8599496825206661
+System total F1: 0.8655283847007187
+Iteration 104
+Ran 20 iterations, total processed 2080 sentences.
+41051.0 41197.0 36038.0
+System total recall: 0.8747724348860354
+System total precision: 0.8778836081946847
+System total F1: 0.8763252601886976
+Iteration 105
+Ran 16 iterations, total processed 1680 sentences.
+41274.0 41197.0 36163.0
+System total recall: 0.8778066364055636
+System total precision: 0.8761690168144595
+System total F1: 0.8769870621188054
+Iteration 106
+Ran 23 iterations, total processed 2438 sentences.
+41159.0 41197.0 35929.0
+System total recall: 0.8721266111610069
+System total precision: 0.8729318010641658
+System total F1: 0.8725290203506727
+Iteration 107
+Ran 22 iterations, total processed 2354 sentences.
+41527.0 41197.0 35579.0
+System total recall: 0.8636308469063281
+System total precision: 0.8567678859537169
+System total F1: 0.8601856776751607
+Iteration 108
+Ran 15 iterations, total processed 1620 sentences.
+41301.0 41197.0 36150.0
+System total recall: 0.8774910794475326
+System total precision: 0.87528147018232
+System total F1: 0.8763848820577469
+Iteration 109
+Ran 14 iterations, total processed 1526 sentences.
+41066.0 41197.0 35934.0
+System total recall: 0.872247979221788
+System total precision: 0.8750304388058248
+System total F1: 0.8736369935450932
+Iteration 110
+Ran 9 iterations, total processed 990 sentences.
+41834.0 41197.0 36106.0
+System total recall: 0.8764230405126587
+System total precision: 0.8630778792369843
+System total F1: 0.8696992689477424
+Iteration 111
+Ran 17 iterations, total processed 1887 sentences.
+41512.0 41197.0 36119.0
+System total recall: 0.8767385974706896
+System total precision: 0.8700857583349393
+System total F1: 0.8733995091223447
+Iteration 112
+Ran 16 iterations, total processed 1792 sentences.
+41187.0 41197.0 35551.0
+System total recall: 0.8629511857659539
+System total precision: 0.8631607060480249
+System total F1: 0.8630559331909109
+Iteration 113
+Ran 16 iterations, total processed 1808 sentences.
+41121.0 41197.0 36095.0
+System total recall: 0.8761560307789402
+System total precision: 0.8777753459303033
+System total F1: 0.8769649408391846
+Iteration 114
+Ran 20 iterations, total processed 2280 sentences.
+41259.0 41197.0 35707.0
+System total recall: 0.8667378692623249
+System total precision: 0.865435420150755
+System total F1: 0.8660861550402639
+Iteration 115
+Ran 29 iterations, total processed 3335 sentences.
+41428.0 41197.0 35778.0
+System total recall: 0.8684612957254169
+System total precision: 0.8636188085352902
+System total F1: 0.8660332829046898
+Iteration 116
+Ran 14 iterations, total processed 1624 sentences.
+41280.0 41197.0 35768.0
+System total recall: 0.8682185596038546
+System total precision: 0.8664728682170543
+System total F1: 0.8673448355299053
+Iteration 117
+Ran 16 iterations, total processed 1872 sentences.
+41391.0 41197.0 36236.0
+System total recall: 0.8795786100929679
+System total precision: 0.8754560170085284
+System total F1: 0.8775124715455029
+Iteration 118
+Ran 12 iterations, total processed 1416 sentences.
+41467.0 41197.0 35860.0
+System total recall: 0.8704517319222274
+System total precision: 0.8647840451443316
+System total F1: 0.8676086325365334
+Iteration 119
+Ran 18 iterations, total processed 2142 sentences.
+41560.0 41197.0 35859.0
+System total recall: 0.8704274583100711
+System total precision: 0.8628248315688162
+System total F1: 0.8666094711021424
+Iteration 120
+Ran 26 iterations, total processed 3120 sentences.
+41388.0 41197.0 36004.0
+System total recall: 0.8739471320727238
+System total precision: 0.8699139847298734
+System total F1: 0.8719258945329055
+Iteration 121
+Ran 12 iterations, total processed 1452 sentences.
+41565.0 41197.0 35721.0
+System total recall: 0.867077699832512
+System total precision: 0.8594009382894262
+System total F1: 0.8632222517580532
+Iteration 122
+Ran 19 iterations, total processed 2318 sentences.
+41338.0 41197.0 36120.0
+System total recall: 0.8767628710828458
+System total precision: 0.8737723160288354
+System total F1: 0.8752650390743321
+Iteration 123
+Ran 20 iterations, total processed 2460 sentences.
+41129.0 41197.0 36143.0
+System total recall: 0.877321164162439
+System total precision: 0.8787716696248389
+System total F1: 0.8780458178461239
+Iteration 124
+Ran 9 iterations, total processed 1116 sentences.
+41458.0 41197.0 36264.0
+System total recall: 0.8802582712333422
+System total precision: 0.8747165806358242
+System total F1: 0.8774786764261086
+Iteration 125
+Ran 21 iterations, total processed 2625 sentences.
+41314.0 41197.0 36266.0
+System total recall: 0.8803068184576547
+System total precision: 0.8778138161398074
+System total F1: 0.8790585497691217
+Iteration 126
+Ran 12 iterations, total processed 1512 sentences.
+41649.0 41197.0 35986.0
+System total recall: 0.8735102070539117
+System total precision: 0.86403034886792
+System total F1: 0.8687444173526785
+Iteration 127
+Ran 20 iterations, total processed 2540 sentences.
+41203.0 41197.0 36097.0
+System total recall: 0.8762045780032527
+System total precision: 0.8760769846855812
+System total F1: 0.8761407766990291
+Iteration 128
+Ran 20 iterations, total processed 2560 sentences.
+41460.0 41197.0 36142.0
+System total recall: 0.8772968905502828
+System total precision: 0.8717317896767969
+System total F1: 0.8745054865286667
+Iteration 129
+Ran 21 iterations, total processed 2709 sentences.
+41218.0 41197.0 36049.0
+System total recall: 0.8750394446197539
+System total precision: 0.8745936241447911
+System total F1: 0.8748164775829642
+Iteration 130
+Ran 17 iterations, total processed 2210 sentences.
+41523.0 41197.0 35766.0
+System total recall: 0.8681700123795422
+System total precision: 0.8613539484141319
+System total F1: 0.8647485493230174
+Iteration 131
+Ran 18 iterations, total processed 2358 sentences.
+41019.0 41197.0 35861.0
+System total recall: 0.8704760055343835
+System total precision: 0.8742533947682781
+System total F1: 0.8723606110732705
+Iteration 132
+Ran 26 iterations, total processed 3432 sentences.
+41117.0 41197.0 36067.0
+System total recall: 0.8754763696385659
+System total precision: 0.8771797553323443
+System total F1: 0.876327234735282
+Iteration 133
+Ran 28 iterations, total processed 3724 sentences.
+41269.0 41197.0 36055.0
+System total recall: 0.8751850862926912
+System total precision: 0.8736581938016429
+System total F1: 0.8744209734921058
+Iteration 134
+Ran 22 iterations, total processed 2948 sentences.
+41304.0 41197.0 36202.0
+System total recall: 0.8787533072796563
+System total precision: 0.876476854541933
+System total F1: 0.8776136046835796
+Iteration 135
+Ran 14 iterations, total processed 1890 sentences.
+41361.0 41197.0 35968.0
+System total recall: 0.8730732820350996
+System total precision: 0.8696114697420275
+System total F1: 0.8713389374742605
+Iteration 136
+Ran 21 iterations, total processed 2856 sentences.
+41088.0 41197.0 36068.0
+System total recall: 0.8755006432507222
+System total precision: 0.8778232087227414
+System total F1: 0.8766603876769764
+Iteration 137
+Ran 24 iterations, total processed 3288 sentences.
+41335.0 41197.0 36180.0
+System total recall: 0.8782192878122194
+System total precision: 0.8752872868029515
+System total F1: 0.8767508360393544
+Iteration 138
+Ran 30 iterations, total processed 4140 sentences.
+41395.0 41197.0 36043.0
+System total recall: 0.8748938029468165
+System total precision: 0.8707090228288441
+System total F1: 0.8727963967454475
+Iteration 139
+Ran 20 iterations, total processed 2780 sentences.
+41193.0 41197.0 36229.0
+System total recall: 0.8794086948078743
+System total precision: 0.8794940888014954
+System total F1: 0.8794513897317635
+Iteration 140
+Ran 14 iterations, total processed 1960 sentences.
+41231.0 41197.0 36244.0
+System total recall: 0.8797727989902178
+System total precision: 0.8790473187650069
+System total F1: 0.879409909254137
+Iteration 141
+Ran 17 iterations, total processed 2397 sentences.
+41175.0 41197.0 36137.0
+System total recall: 0.8771755224895017
+System total precision: 0.8776442015786278
+System total F1: 0.8774097994464138
+Iteration 142
+Ran 15 iterations, total processed 2130 sentences.
+41366.0 41197.0 36450.0
+System total recall: 0.8847731630944001
+System total precision: 0.8811584392979742
+System total F1: 0.8829621016678173
+Iteration 143
+Ran 19 iterations, total processed 2717 sentences.
+41169.0 41197.0 36047.0
+System total recall: 0.8749908973954414
+System total precision: 0.8755859991741359
+System total F1: 0.875288347133526
+Iteration 144
+Ran 15 iterations, total processed 2160 sentences.
+41105.0 41197.0 36353.0
+System total recall: 0.8824186227152463
+System total precision: 0.8843936260795524
+System total F1: 0.8834050205341304
+Iteration 145
+Ran 14 iterations, total processed 2030 sentences.
+41047.0 41197.0 36113.0
+System total recall: 0.8765929557977523
+System total precision: 0.8797963310351549
+System total F1: 0.8781917221925004
+Iteration 146
+Ran 12 iterations, total processed 1752 sentences.
+41189.0 41197.0 36358.0
+System total recall: 0.8825399907760274
+System total precision: 0.8827114035300687
+System total F1: 0.8826256888306265
+Iteration 147
+Ran 15 iterations, total processed 2205 sentences.
+41279.0 41197.0 36194.0
+System total recall: 0.8785591183824065
+System total precision: 0.8768138763051431
+System total F1: 0.8776856297589601
+Iteration 148
+Ran 15 iterations, total processed 2220 sentences.
+41265.0 41197.0 36104.0
+System total recall: 0.8763744932883463
+System total precision: 0.8749303283654428
+System total F1: 0.8756518153816303
+Iteration 149
+Ran 13 iterations, total processed 1937 sentences.
+41176.0 41197.0 36174.0
+System total recall: 0.878073646139282
+System total precision: 0.8785214688167865
+System total F1: 0.8782975003945468
+Iteration 150
+Ran 15 iterations, total processed 2250 sentences.
+41175.0 41197.0 36362.0
+System total recall: 0.8826370852246522
+System total precision: 0.8831086824529447
+System total F1: 0.8828728208614578
+Iteration 151
+Ran 20 iterations, total processed 3020 sentences.
+41517.0 41197.0 36258.0
+System total recall: 0.8801126295604049
+System total precision: 0.8733289977599538
+System total F1: 0.8767076915637014
+Iteration 152
+Ran 15 iterations, total processed 2280 sentences.
+41283.0 41197.0 35975.0
+System total recall: 0.8732431973201932
+System total precision: 0.8714240728629218
+System total F1: 0.8723326867119302
+Iteration 153
+Ran 7 iterations, total processed 1071 sentences.
+41431.0 41197.0 35989.0
+System total recall: 0.8735830278903803
+System total precision: 0.8686490791919095
+System total F1: 0.8711090671443095
+Iteration 154
+Ran 25 iterations, total processed 3850 sentences.
+41129.0 41197.0 36075.0
+System total recall: 0.8756705585358158
+System total precision: 0.8771183349947725
+System total F1: 0.8763938488448364
+Iteration 155
+Ran 23 iterations, total processed 3565 sentences.
+41085.0 41197.0 36068.0
+System total recall: 0.8755006432507222
+System total precision: 0.8778873068029694
+System total F1: 0.8766923506963856
+Iteration 156
+Ran 22 iterations, total processed 3432 sentences.
+41143.0 41197.0 36150.0
+System total recall: 0.8774910794475326
+System total precision: 0.8786427824903386
+System total F1: 0.878066553315521
+Iteration 157
+Ran 15 iterations, total processed 2355 sentences.
+41179.0 41197.0 35819.0
+System total recall: 0.8694565138238222
+System total precision: 0.8698365671823016
+System total F1: 0.8696464989802856
+Iteration 158
+Ran 27 iterations, total processed 4266 sentences.
+41297.0 41197.0 36305.0
+System total recall: 0.8812534893317474
+System total precision: 0.8791195486354941
+System total F1: 0.8801852255921643
+Iteration 159
+Ran 24 iterations, total processed 3816 sentences.
+41483.0 41197.0 35872.0
+System total recall: 0.870743015268102
+System total precision: 0.864739772919027
+System total F1: 0.8677310111272375
+Iteration 160
+Ran 25 iterations, total processed 4000 sentences.
+41501.0 41197.0 36467.0
+System total recall: 0.8851858145010559
+System total precision: 0.8787017180308908
+System total F1: 0.8819318484122953
+Iteration 161
+Ran 16 iterations, total processed 2576 sentences.
+41253.0 41197.0 36289.0
+System total recall: 0.8808651115372479
+System total precision: 0.8796693573800693
+System total F1: 0.8802668283808369
+Iteration 162
+Ran 14 iterations, total processed 2268 sentences.
+41164.0 41197.0 36420.0
+System total recall: 0.8840449547297133
+System total precision: 0.884753668253814
+System total F1: 0.8843991695098409
+Iteration 163
+Ran 27 iterations, total processed 4401 sentences.
+41415.0 41197.0 36214.0
+System total recall: 0.879044590625531
+System total precision: 0.8744174815887963
+System total F1: 0.8767249310027599
+Iteration 164
+Ran 11 iterations, total processed 1804 sentences.
+41239.0 41197.0 36474.0
+System total recall: 0.8853557297861495
+System total precision: 0.8844540362278426
+System total F1: 0.8849046533068077
+Iteration 165
+Ran 19 iterations, total processed 3135 sentences.
+41356.0 41197.0 36440.0
+System total recall: 0.8845304269728378
+System total precision: 0.8811297030660605
+System total F1: 0.8828267900621419
+Iteration 166
+Ran 19 iterations, total processed 3154 sentences.
+41231.0 41197.0 36434.0
+System total recall: 0.8843847852999005
+System total precision: 0.8836555019281609
+System total F1: 0.8840199932061921
+Iteration 167
+Ran 13 iterations, total processed 2171 sentences.
+41107.0 41197.0 36422.0
+System total recall: 0.8840935019540258
+System total precision: 0.886029143454886
+System total F1: 0.8850602643856921
+Iteration 168
+Ran 15 iterations, total processed 2520 sentences.
+41178.0 41197.0 36242.0
+System total recall: 0.8797242517659053
+System total precision: 0.8801301665938123
+System total F1: 0.879927162367223
+Iteration 169
+Ran 19 iterations, total processed 3211 sentences.
+41033.0 41197.0 36495.0
+System total recall: 0.8858654756414303
+System total precision: 0.8894060877830039
+System total F1: 0.8876322510032835
+Iteration 170
+Ran 15 iterations, total processed 2550 sentences.
+41048.0 41197.0 36318.0
+System total recall: 0.8815690462897784
+System total precision: 0.8847690508672773
+System total F1: 0.8831661499179282
+Iteration 171
+Ran 13 iterations, total processed 2223 sentences.
+41084.0 41197.0 36479.0
+System total recall: 0.8854770978469306
+System total precision: 0.8879125693700711
+System total F1: 0.8866931612401405
+Iteration 172
+Ran 16 iterations, total processed 2752 sentences.
+41124.0 41197.0 36568.0
+System total recall: 0.8876374493288346
+System total precision: 0.8892131115650228
+System total F1: 0.8884245818199488
+Iteration 173
+Ran 26 iterations, total processed 4498 sentences.
+41068.0 41197.0 36119.0
+System total recall: 0.8767385974706896
+System total precision: 0.8794925489432162
+System total F1: 0.8781134139670577
+Iteration 174
+Ran 21 iterations, total processed 3654 sentences.
+41144.0 41197.0 35776.0
+System total recall: 0.8684127485011045
+System total precision: 0.8695314019055026
+System total F1: 0.8689717151844161
+Iteration 175
+Ran 20 iterations, total processed 3500 sentences.
+41279.0 41197.0 36483.0
+System total recall: 0.8855741922955555
+System total precision: 0.8838150148986167
+System total F1: 0.8846937290848247
+Iteration 176
+Ran 17 iterations, total processed 2992 sentences.
+41024.0 41197.0 36659.0
+System total recall: 0.8898463480350511
+System total precision: 0.8935988689547582
+System total F1: 0.8917186606827939
+Iteration 177
+Ran 26 iterations, total processed 4602 sentences.
+41428.0 41197.0 36481.0
+System total recall: 0.8855256450712431
+System total precision: 0.8805880081104567
+System total F1: 0.8830499243570348
+Iteration 178
+Ran 22 iterations, total processed 3916 sentences.
+41127.0 41197.0 36156.0
+System total recall: 0.87763672112047
+System total precision: 0.8791304982128528
+System total F1: 0.8783829745882125
+Iteration 179
+Ran 15 iterations, total processed 2685 sentences.
+41394.0 41197.0 36491.0
+System total recall: 0.8857683811928053
+System total precision: 0.881552882060202
+System total F1: 0.8836556041215144
+Iteration 180
+Ran 17 iterations, total processed 3060 sentences.
+40979.0 41197.0 36213.0
+System total recall: 0.8790203170133748
+System total precision: 0.8836965274896899
+System total F1: 0.8813522196261683
+Iteration 181
+Ran 21 iterations, total processed 3801 sentences.
+41140.0 41197.0 36114.0
+System total recall: 0.8766172294099085
+System total precision: 0.8778317938745747
+System total F1: 0.8772240912348033
+Iteration 182
+Ran 24 iterations, total processed 4368 sentences.
+41129.0 41197.0 36565.0
+System total recall: 0.887564628492366
+System total precision: 0.8890320698290743
+System total F1: 0.8882977431188203
+Iteration 183
+Ran 15 iterations, total processed 2745 sentences.
+41188.0 41197.0 36583.0
+System total recall: 0.888001553511178
+System total precision: 0.8881955909488201
+System total F1: 0.8880985616313649
+Iteration 184
+Ran 16 iterations, total processed 2944 sentences.
+41266.0 41197.0 36618.0
+System total recall: 0.8888511299366458
+System total precision: 0.8873649008869287
+System total F1: 0.8881073936189564
+Iteration 185
+Ran 20 iterations, total processed 3700 sentences.
+41154.0 41197.0 36487.0
+System total recall: 0.8856712867441804
+System total precision: 0.8865966856198668
+System total F1: 0.8861337445811223
+Iteration 186
+Ran 25 iterations, total processed 4650 sentences.
+41098.0 41197.0 36631.0
+System total recall: 0.8891666868946768
+System total precision: 0.8913085794929194
+System total F1: 0.8902363448569172
+Iteration 187
+Ran 32 iterations, total processed 5984 sentences.
+41073.0 41197.0 36098.0
+System total recall: 0.8762288516154089
+System total precision: 0.8788741995958416
+System total F1: 0.877549532028686
+Iteration 188
+Ran 16 iterations, total processed 3008 sentences.
+40946.0 41197.0 36408.0
+System total recall: 0.8837536713838386
+System total precision: 0.8891711034044839
+System total F1: 0.8864541105145904
+Iteration 189
+Ran 27 iterations, total processed 5103 sentences.
+41083.0 41197.0 35976.0
+System total recall: 0.8732674709323495
+System total precision: 0.8756906749750505
+System total F1: 0.8744773942634905
+Iteration 190
+Ran 21 iterations, total processed 3990 sentences.
+41010.0 41197.0 36283.0
+System total recall: 0.8807194698643105
+System total precision: 0.8847354303828334
+System total F1: 0.8827228824795942
+Iteration 191
+Ran 31 iterations, total processed 5921 sentences.
+40976.0 41197.0 36280.0
+System total recall: 0.8806466490278418
+System total precision: 0.8853963295587661
+System total F1: 0.8830151022842053
+Iteration 192
+Ran 12 iterations, total processed 2304 sentences.
+41151.0 41197.0 36608.0
+System total recall: 0.8886083938150836
+System total precision: 0.8896017107725207
+System total F1: 0.88910477485792
+Iteration 193
+Ran 22 iterations, total processed 4246 sentences.
+40932.0 41197.0 36533.0
+System total recall: 0.8867878729033668
+System total precision: 0.8925290726082283
+System total F1: 0.8896492103885351
+Iteration 194
+Ran 17 iterations, total processed 3298 sentences.
+41054.0 41197.0 36531.0
+System total recall: 0.8867393256790543
+System total precision: 0.8898280313733132
+System total F1: 0.8882809935441515
+Iteration 195
+Ran 18 iterations, total processed 3510 sentences.
+41128.0 41197.0 36442.0
+System total recall: 0.8845789741971503
+System total precision: 0.8860630227582182
+System total F1: 0.8853203765563317
+Iteration 196
+Ran 17 iterations, total processed 3332 sentences.
+41055.0 41197.0 36517.0
+System total recall: 0.8863994951088672
+System total precision: 0.8894653513579345
+System total F1: 0.8879297767835432
+Iteration 197
+Ran 18 iterations, total processed 3546 sentences.
+41131.0 41197.0 36561.0
+System total recall: 0.887467534043741
+System total precision: 0.8888915902847001
+System total F1: 0.8881789913516666
+Iteration 198
+Ran 7 iterations, total processed 1386 sentences.
+40885.0 41197.0 36113.0
+System total recall: 0.8765929557977523
+System total precision: 0.8832823774000245
+System total F1: 0.8799249530956847
+Iteration 199
+Ran 17 iterations, total processed 3383 sentences.
+41208.0 41197.0 36611.0
+System total recall: 0.8886812146515523
+System total precision: 0.8884439914579694
+System total F1: 0.8885625872216492
+Iteration 200
+Ran 21 iterations, total processed 4200 sentences.
+41253.0 41197.0 36653.0
+System total recall: 0.8897007063621137
+System total precision: 0.8884929580878966
+System total F1: 0.8890964220739842
+Iteration 201
+Ran 13 iterations, total processed 2613 sentences.
+40930.0 41197.0 36610.0
+System total recall: 0.8886569410393961
+System total precision: 0.8944539457610554
+System total F1: 0.891546020188245
+Iteration 202
+Ran 24 iterations, total processed 4848 sentences.
+41039.0 41197.0 36603.0
+System total recall: 0.8884870257543025
+System total precision: 0.8919076975559833
+System total F1: 0.890194075587334
+Iteration 203
+Ran 15 iterations, total processed 3045 sentences.
+41250.0 41197.0 36542.0
+System total recall: 0.8870063354127727
+System total precision: 0.8858666666666667
+System total F1: 0.8864361347289774
+Iteration 204
+Ran 10 iterations, total processed 2040 sentences.
+41364.0 41197.0 36424.0
+System total recall: 0.8841420491783383
+System total precision: 0.8805724784837057
+System total F1: 0.8823536536621407
+Iteration 205
+Ran 29 iterations, total processed 5945 sentences.
+41000.0 41197.0 36368.0
+System total recall: 0.8827827268975896
+System total precision: 0.8870243902439024
+System total F1: 0.8848984756134652
+Iteration 206
+Ran 29 iterations, total processed 5974 sentences.
+41051.0 41197.0 36408.0
+System total recall: 0.8837536713838386
+System total precision: 0.8868967869235829
+System total F1: 0.8853224394514152
+Iteration 207
+Ran 16 iterations, total processed 3312 sentences.
+40982.0 41197.0 36437.0
+System total recall: 0.8844576061363691
+System total precision: 0.889097652627983
+System total F1: 0.8867715596441913
+Iteration 208
+Ran 12 iterations, total processed 2496 sentences.
+40976.0 41197.0 36508.0
+System total recall: 0.8861810325994611
+System total precision: 0.8909605622803592
+System total F1: 0.888564370291945
+Iteration 209
+Ran 20 iterations, total processed 4180 sentences.
+40996.0 41197.0 36431.0
+System total recall: 0.8843119644634319
+System total precision: 0.8886476729437018
+System total F1: 0.8864745172946601
+Iteration 210
+Ran 22 iterations, total processed 4620 sentences.
+41020.0 41197.0 36307.0
+System total recall: 0.8813020365560599
+System total precision: 0.8851048269137006
+System total F1: 0.8831993383363538
+Iteration 211
+Ran 19 iterations, total processed 4009 sentences.
+41076.0 41197.0 36542.0
+System total recall: 0.8870063354127727
+System total precision: 0.8896192423799786
+System total F1: 0.8883108674777873
+Iteration 212
+Ran 21 iterations, total processed 4452 sentences.
+40979.0 41197.0 36359.0
+System total recall: 0.8825642643881836
+System total precision: 0.8872593279484614
+System total F1: 0.8849055685358256
+Iteration 213
+Ran 29 iterations, total processed 6177 sentences.
+41139.0 41197.0 36360.0
+System total recall: 0.8825885380003399
+System total precision: 0.8838328593305622
+System total F1: 0.8832102603964244
+Iteration 214
+Ran 13 iterations, total processed 2782 sentences.
+41000.0 41197.0 36512.0
+System total recall: 0.8862781270480861
+System total precision: 0.8905365853658537
+System total F1: 0.8884022531235933
+Iteration 215
+Ran 11 iterations, total processed 2365 sentences.
+41084.0 41197.0 36543.0
+System total recall: 0.887030609024929
+System total precision: 0.8894703534222569
+System total F1: 0.8882488059211726
+Iteration 216
+Ran 19 iterations, total processed 4104 sentences.
+40920.0 41197.0 36552.0
+System total recall: 0.8872490715343351
+System total precision: 0.8932551319648094
+System total F1: 0.8902419718206949
+Iteration 217
+Ran 15 iterations, total processed 3255 sentences.
+41076.0 41197.0 36346.0
+System total recall: 0.8822487074301527
+System total precision: 0.8848475995715259
+System total F1: 0.8835462423881468
+Iteration 218
+Ran 14 iterations, total processed 3052 sentences.
+41136.0 41197.0 36438.0
+System total recall: 0.8844818797485253
+System total precision: 0.8857934655775963
+System total F1: 0.8851371867902299
+Iteration 219
+Ran 28 iterations, total processed 6132 sentences.
+41090.0 41197.0 36126.0
+System total recall: 0.8769085127557832
+System total precision: 0.8791920175225115
+System total F1: 0.8780487804878049
+Iteration 220
+Ran 15 iterations, total processed 3300 sentences.
+41105.0 41197.0 36616.0
+System total recall: 0.8888025827123335
+System total precision: 0.8907918744678263
+System total F1: 0.889796116740784
+Iteration 221
+Ran 13 iterations, total processed 2873 sentences.
+40850.0 41197.0 36320.0
+System total recall: 0.8816175935140909
+System total precision: 0.8891064871481028
+System total F1: 0.8853462040050215
+Iteration 222
+Ran 24 iterations, total processed 5328 sentences.
+41073.0 41197.0 36603.0
+System total recall: 0.8884870257543025
+System total precision: 0.8911693813454094
+System total F1: 0.8898261820833839
+Iteration 223
+Ran 20 iterations, total processed 4460 sentences.
+41238.0 41197.0 36662.0
+System total recall: 0.8899191688715198
+System total precision: 0.8890343857607061
+System total F1: 0.8894765572875599
+Iteration 224
+Ran 25 iterations, total processed 5600 sentences.
+41251.0 41197.0 36772.0
+System total recall: 0.8925892662087045
+System total precision: 0.8914208140408717
+System total F1: 0.8920046574810789
+Iteration 225
+Ran 23 iterations, total processed 5175 sentences.
+40790.0 41197.0 36285.0
+System total recall: 0.880768017088623
+System total precision: 0.8895562637901446
+System total F1: 0.885140327125032
+Iteration 226
+Ran 16 iterations, total processed 3616 sentences.
+40999.0 41197.0 36499.0
+System total recall: 0.8859625700900551
+System total precision: 0.8902412253957414
+System total F1: 0.8880967443671225
+Iteration 227
+Ran 20 iterations, total processed 4540 sentences.
+41258.0 41197.0 37143.0
+System total recall: 0.901594776318664
+System total precision: 0.9002617674148043
+System total F1: 0.90092777878843
+Iteration 228
+Ran 30 iterations, total processed 6840 sentences.
+41032.0 41197.0 36658.0
+System total recall: 0.8898220744228948
+System total precision: 0.8934002729576915
+System total F1: 0.8916075836991816
+Iteration 229
+Ran 16 iterations, total processed 3664 sentences.
+41129.0 41197.0 36807.0
+System total recall: 0.8934388426341724
+System total precision: 0.8949159960125459
+System total F1: 0.8941768092704613
+Iteration 230
+Ran 13 iterations, total processed 2990 sentences.
+41159.0 41197.0 36673.0
+System total recall: 0.8901861786052383
+System total precision: 0.8910080419835273
+System total F1: 0.8905969206858031
+Iteration 231
+Ran 17 iterations, total processed 3927 sentences.
+40970.0 41197.0 36605.0
+System total recall: 0.888535572978615
+System total precision: 0.8934586282645839
+System total F1: 0.8909903002421897
+Iteration 232
+Ran 28 iterations, total processed 6496 sentences.
+41114.0 41197.0 36446.0
+System total recall: 0.8846760686457752
+System total precision: 0.8864620323977234
+System total F1: 0.8855681500649973
+Iteration 233
+Ran 25 iterations, total processed 5825 sentences.
+41445.0 41197.0 36725.0
+System total recall: 0.8914484064373619
+System total precision: 0.8861141271564724
+System total F1: 0.8887732629897631
+Iteration 234
+Ran 29 iterations, total processed 6786 sentences.
+41454.0 41197.0 36563.0
+System total recall: 0.8875160812680535
+System total precision: 0.8820137984271723
+System total F1: 0.8847563852826947
+Iteration 235
+Ran 19 iterations, total processed 4465 sentences.
+41069.0 41197.0 36501.0
+System total recall: 0.8860111173143675
+System total precision: 0.8887725535075117
+System total F1: 0.8873896871125374
+Iteration 236
+Ran 18 iterations, total processed 4248 sentences.
+41196.0 41197.0 36513.0
+System total recall: 0.8863024006602422
+System total precision: 0.8863239149431984
+System total F1: 0.8863131576711614
+Iteration 237
+Ran 17 iterations, total processed 4029 sentences.
+41149.0 41197.0 36985.0
+System total recall: 0.8977595455979804
+System total precision: 0.8988067753772874
+System total F1: 0.8982828552692298
+Iteration 238
+Ran 27 iterations, total processed 6426 sentences.
+41300.0 41197.0 36738.0
+System total recall: 0.8917639633953929
+System total precision: 0.8895399515738499
+System total F1: 0.890650569111604
+Iteration 239
+Ran 21 iterations, total processed 5019 sentences.
+41239.0 41197.0 36837.0
+System total recall: 0.8941670509988592
+System total precision: 0.8932563835204539
+System total F1: 0.8937114852734243
+Iteration 240
+Ran 31 iterations, total processed 7440 sentences.
+41343.0 41197.0 36923.0
+System total recall: 0.8962545816442945
+System total precision: 0.8930895193865951
+System total F1: 0.8946692512721105
+Iteration 241
+Ran 7 iterations, total processed 1687 sentences.
+41549.0 41197.0 36137.0
+System total recall: 0.8771755224895017
+System total precision: 0.8697441575007822
+System total F1: 0.8734440335484495
+Iteration 242
+Ran 33 iterations, total processed 7986 sentences.
+41316.0 41197.0 36901.0
+System total recall: 0.8957205621768576
+System total precision: 0.8931406718946655
+System total F1: 0.8944287566807655
+Iteration 243
+Ran 18 iterations, total processed 4374 sentences.
+41030.0 41197.0 36655.0
+System total recall: 0.8897492535864262
+System total precision: 0.8933707043626614
+System total F1: 0.8915563014581586
+Iteration 244
+Ran 30 iterations, total processed 7320 sentences.
+41343.0 41197.0 36942.0
+System total recall: 0.8967157802752628
+System total precision: 0.8935490893258835
+System total F1: 0.8951296341167918
+Iteration 245
+Ran 26 iterations, total processed 6370 sentences.
+41246.0 41197.0 36817.0
+System total recall: 0.8936815787557346
+System total precision: 0.8926198904136159
+System total F1: 0.8931504190774232
+Iteration 246
+Ran 25 iterations, total processed 6150 sentences.
+41167.0 41197.0 36838.0
+System total recall: 0.8941913246110154
+System total precision: 0.8948429567371924
+System total F1: 0.8945170219999029
+Iteration 247
+Ran 25 iterations, total processed 6175 sentences.
+41190.0 41197.0 36709.0
+System total recall: 0.8910600286428624
+System total precision: 0.8912114590920126
+System total F1: 0.891135737434304
+Iteration 248
+Ran 14 iterations, total processed 3472 sentences.
+41062.0 41197.0 36591.0
+System total recall: 0.8881957424084278
+System total precision: 0.89111587355706
+System total F1: 0.8896534117847287
+Iteration 249
+Ran 20 iterations, total processed 4980 sentences.
+41254.0 41197.0 36648.0
+System total recall: 0.8895793383013326
+System total precision: 0.8883502205846706
+System total F1: 0.8889643545863604
+Iteration 250
+Ran 16 iterations, total processed 4000 sentences.
+41268.0 41197.0 36665.0
+System total recall: 0.8899919897079884
+System total precision: 0.8884607928661432
+System total F1: 0.8892257321287819
+Iteration 251
+Ran 34 iterations, total processed 8534 sentences.
+41092.0 41197.0 36695.0
+System total recall: 0.8907201980726752
+System total precision: 0.8929962036406113
+System total F1: 0.8918567487756566
+Iteration 252
+Ran 23 iterations, total processed 5796 sentences.
+41054.0 41197.0 36609.0
+System total recall: 0.8886326674272399
+System total precision: 0.8917279680420909
+System total F1: 0.8901776270197322
+Iteration 253
+Ran 23 iterations, total processed 5819 sentences.
+40827.0 41197.0 36704.0
+System total recall: 0.8909386605820813
+System total precision: 0.8990129081245254
+System total F1: 0.8949575733931532
+Iteration 254
+Ran 24 iterations, total processed 6096 sentences.
+41212.0 41197.0 36953.0
+System total recall: 0.8969827900089813
+System total precision: 0.8966563136950403
+System total F1: 0.8968195221395722
+Iteration 255
+Ran 29 iterations, total processed 7395 sentences.
+41138.0 41197.0 37083.0
+System total recall: 0.9001383595892904
+System total precision: 0.9014293354076522
+System total F1: 0.9007833849517216
+Iteration 256
+Ran 19 iterations, total processed 4864 sentences.
+41502.0 41197.0 37010.0
+System total recall: 0.8983663859018861
+System total precision: 0.8917642523251892
+System total F1: 0.8950531445362097
+Iteration 257
+Ran 30 iterations, total processed 7710 sentences.
+41176.0 41197.0 36683.0
+System total recall: 0.8904289147268005
+System total precision: 0.890883038663299
+System total F1: 0.8906559188083474
+Iteration 258
+Ran 15 iterations, total processed 3870 sentences.
+41203.0 41197.0 36849.0
+System total recall: 0.8944583343447339
+System total precision: 0.8943280829065845
+System total F1: 0.8943932038834952
+Iteration 259
+Ran 28 iterations, total processed 7252 sentences.
+41311.0 41197.0 36822.0
+System total recall: 0.8938029468165157
+System total precision: 0.8913364479194403
+System total F1: 0.8925679934067
+Iteration 260
+Ran 30 iterations, total processed 7800 sentences.
+41003.0 41197.0 36853.0
+System total recall: 0.8945554287933587
+System total precision: 0.8987878935687632
+System total F1: 0.8966666666666666
+Iteration 261
+Ran 31 iterations, total processed 8091 sentences.
+41165.0 41197.0 37038.0
+System total recall: 0.8990460470422603
+System total precision: 0.8997449289444917
+System total F1: 0.8993953522255409
+Iteration 262
+Ran 24 iterations, total processed 6288 sentences.
+41056.0 41197.0 36856.0
+System total recall: 0.8946282496298275
+System total precision: 0.8977007014809041
+System total F1: 0.89616184212126
+Iteration 263
+Ran 18 iterations, total processed 4734 sentences.
+41486.0 41197.0 37071.0
+System total recall: 0.8998470762434158
+System total precision: 0.8935785566215109
+System total F1: 0.8967018613257864
+Iteration 264
+Ran 21 iterations, total processed 5544 sentences.
+41202.0 41197.0 37002.0
+System total recall: 0.8981721970046362
+System total precision: 0.8980632008154944
+System total F1: 0.898117695603102
+Iteration 265
+Ran 26 iterations, total processed 6890 sentences.
+41097.0 41197.0 36851.0
+System total recall: 0.8945068815690463
+System total precision: 0.8966834562133489
+System total F1: 0.8955938464529614
+Iteration 266
+Ran 21 iterations, total processed 5586 sentences.
+41187.0 41197.0 37030.0
+System total recall: 0.8988518581450106
+System total precision: 0.8990700949328672
+System total F1: 0.8989609632938435
+Iteration 267
+Ran 12 iterations, total processed 3204 sentences.
+41506.0 41197.0 36997.0
+System total recall: 0.8980508289438551
+System total precision: 0.8913651038404086
+System total F1: 0.8946954765848881
+Iteration 268
+Ran 17 iterations, total processed 4556 sentences.
+41248.0 41197.0 37105.0
+System total recall: 0.9006723790567275
+System total precision: 0.8995587664856478
+System total F1: 0.9001152283340409
+Iteration 269
+Ran 40 iterations, total processed 10760 sentences.
+41219.0 41197.0 36827.0
+System total recall: 0.8939243148772968
+System total precision: 0.8934471966811421
+System total F1: 0.8936856920986216
+Iteration 270
+Ran 25 iterations, total processed 6750 sentences.
+41275.0 41197.0 37006.0
+System total recall: 0.8982692914532612
+System total precision: 0.8965717746820109
+System total F1: 0.8974197303327189
+Iteration 271
+Ran 27 iterations, total processed 7317 sentences.
+41241.0 41197.0 37166.0
+System total recall: 0.9021530693982571
+System total precision: 0.9011905627894571
+System total F1: 0.9016715592323928
+Iteration 272
+Ran 16 iterations, total processed 4352 sentences.
+41167.0 41197.0 37028.0
+System total recall: 0.8988033109206981
+System total precision: 0.8994583039813443
+System total F1: 0.8991306881647322
+Iteration 273
+Ran 27 iterations, total processed 7371 sentences.
+41039.0 41197.0 37127.0
+System total recall: 0.9012063985241644
+System total precision: 0.9046760398645192
+System total F1: 0.9029378860839535
+Iteration 274
+Ran 23 iterations, total processed 6302 sentences.
+41170.0 41197.0 36934.0
+System total recall: 0.896521591378013
+System total precision: 0.8971095457857663
+System total F1: 0.8968154722158146
+Iteration 275
+Ran 32 iterations, total processed 8800 sentences.
+41111.0 41197.0 37156.0
+System total recall: 0.9019103332766949
+System total precision: 0.90379703728929
+System total F1: 0.9028526996160762
+Iteration 276
+Ran 25 iterations, total processed 6900 sentences.
+41250.0 41197.0 37034.0
+System total recall: 0.8989489525936355
+System total precision: 0.8977939393939394
+System total F1: 0.8983710747510522
+Iteration 277
+Ran 24 iterations, total processed 6648 sentences.
+41035.0 41197.0 37065.0
+System total recall: 0.8997014345704785
+System total precision: 0.9032533203362982
+System total F1: 0.9014738787819827
+Iteration 278
+Ran 31 iterations, total processed 8618 sentences.
+40924.0 41197.0 36964.0
+System total recall: 0.8972497997426997
+System total precision: 0.903235265369954
+System total F1: 0.9002325836265997
+Iteration 279
+Ran 22 iterations, total processed 6138 sentences.
+41171.0 41197.0 37042.0
+System total recall: 0.8991431414908853
+System total precision: 0.8997109615991838
+System total F1: 0.8994269619269619
+Iteration 280
+Ran 18 iterations, total processed 5040 sentences.
+41257.0 41197.0 37195.0
+System total recall: 0.9028570041507877
+System total precision: 0.9015439804154447
+System total F1: 0.9022000145535692
+Iteration 281
+Ran 30 iterations, total processed 8430 sentences.
+41000.0 41197.0 36923.0
+System total recall: 0.8962545816442945
+System total precision: 0.9005609756097561
+System total F1: 0.8984026181004173
+Iteration 282
+Ran 16 iterations, total processed 4512 sentences.
+41160.0 41197.0 36934.0
+System total recall: 0.896521591378013
+System total precision: 0.8973275024295433
+System total F1: 0.8969243658705393
+Iteration 283
+Ran 33 iterations, total processed 9339 sentences.
+40950.0 41197.0 37030.0
+System total recall: 0.8988518581450106
+System total precision: 0.9042735042735043
+System total F1: 0.9015545302932548
+Iteration 284
+Ran 29 iterations, total processed 8236 sentences.
+41238.0 41197.0 37095.0
+System total recall: 0.9004296429351651
+System total precision: 0.8995344100101847
+System total F1: 0.899981803845454
+Iteration 285
+Ran 24 iterations, total processed 6840 sentences.
+41240.0 41197.0 37096.0
+System total recall: 0.9004539165473214
+System total precision: 0.8995150339476237
+System total F1: 0.8999842303819887
+Iteration 286
+Ran 27 iterations, total processed 7722 sentences.
+41330.0 41197.0 37125.0
+System total recall: 0.9011578512998519
+System total precision: 0.8982579240261311
+System total F1: 0.8997055509106111
+Iteration 287
+Ran 9 iterations, total processed 2583 sentences.
+41430.0 41197.0 36973.0
+System total recall: 0.8974682622521057
+System total precision: 0.8924209510016896
+System total F1: 0.8949374901666526
+Iteration 288
+Ran 19 iterations, total processed 5472 sentences.
+41261.0 41197.0 37081.0
+System total recall: 0.900089812364978
+System total precision: 0.8986936816848841
+System total F1: 0.899391205219627
+Iteration 289
+Ran 20 iterations, total processed 5780 sentences.
+41294.0 41197.0 37229.0
+System total recall: 0.9036823069640993
+System total precision: 0.9015595486027026
+System total F1: 0.9026196797226365
+Iteration 290
+Ran 30 iterations, total processed 8700 sentences.
+41346.0 41197.0 36954.0
+System total recall: 0.8970070636211375
+System total precision: 0.8937744884632128
+System total F1: 0.8953878584495354
+Iteration 291
+Ran 24 iterations, total processed 6984 sentences.
+41276.0 41197.0 36875.0
+System total recall: 0.8950894482607957
+System total precision: 0.893376296152728
+System total F1: 0.8942320517017691
+Iteration 292
+Ran 31 iterations, total processed 9052 sentences.
+41241.0 41197.0 36939.0
+System total recall: 0.8966429594387941
+System total precision: 0.8956863315632502
+System total F1: 0.896164390208399
+Iteration 293
+Ran 22 iterations, total processed 6446 sentences.
+41185.0 41197.0 37110.0
+System total recall: 0.9007937471175086
+System total precision: 0.9010562097851159
+System total F1: 0.9009249593357772
+Iteration 294
+Ran 23 iterations, total processed 6762 sentences.
+41294.0 41197.0 36971.0
+System total recall: 0.8974197150277933
+System total precision: 0.8953116675546084
+System total F1: 0.896364451879599
+Iteration 295
+Ran 22 iterations, total processed 6490 sentences.
+41257.0 41197.0 36993.0
+System total recall: 0.8979537344952302
+System total precision: 0.8966478415783988
+System total F1: 0.8973003129017392
+Iteration 296
+Ran 24 iterations, total processed 7104 sentences.
+41243.0 41197.0 37042.0
+System total recall: 0.8991431414908853
+System total precision: 0.8981402904735349
+System total F1: 0.8986414361960213
+Iteration 297
+Ran 19 iterations, total processed 5643 sentences.
+41382.0 41197.0 37054.0
+System total recall: 0.89943442483676
+System total precision: 0.8954134647914552
+System total F1: 0.8974194407779218
+Iteration 298
+Ran 26 iterations, total processed 7748 sentences.
+41246.0 41197.0 36974.0
+System total recall: 0.8974925358642619
+System total precision: 0.8964263201280124
+System total F1: 0.8969591111434567
+Iteration 299
+Ran 33 iterations, total processed 9867 sentences.
+41201.0 41197.0 36995.0
+System total recall: 0.8980022817195427
+System total precision: 0.8979150991480789
+System total F1: 0.8979586883176777
+Iteration 300
+Ran 23 iterations, total processed 6900 sentences.
+41328.0 41197.0 37026.0
+System total recall: 0.8987547636963856
+System total precision: 0.8959059233449478
+System total F1: 0.897328082399273
+Iteration 301
+Ran 27 iterations, total processed 8127 sentences.
+41343.0 41197.0 37145.0
+System total recall: 0.9016433235429764
+System total precision: 0.8984592313088068
+System total F1: 0.9000484613520717
+Iteration 302
+Ran 14 iterations, total processed 4228 sentences.
+41210.0 41197.0 36990.0
+System total recall: 0.8978809136587615
+System total precision: 0.8975976704683329
+System total F1: 0.8977392697222323
+Iteration 303
+Ran 22 iterations, total processed 6666 sentences.
+41116.0 41197.0 37146.0
+System total recall: 0.9016675971551327
+System total precision: 0.9034439147777021
+System total F1: 0.9025548819749006
+Iteration 304
+Ran 17 iterations, total processed 5168 sentences.
+41076.0 41197.0 36912.0
+System total recall: 0.895987571910576
+System total precision: 0.8986269354367514
+System total F1: 0.8973053128000681
+Iteration 305
+Ran 24 iterations, total processed 7320 sentences.
+41204.0 41197.0 36996.0
+System total recall: 0.898026555331699
+System total precision: 0.8978739928162315
+System total F1: 0.8979502675938399
+Iteration 306
+Ran 26 iterations, total processed 7956 sentences.
+41010.0 41197.0 36946.0
+System total recall: 0.8968128747238877
+System total precision: 0.9009022189709827
+System total F1: 0.8988528957388057
+Iteration 307
+Ran 29 iterations, total processed 8903 sentences.
+41467.0 41197.0 37297.0
+System total recall: 0.9053329125907226
+System total precision: 0.8994381074107122
+System total F1: 0.902375883093003
+Iteration 308
+Ran 15 iterations, total processed 4620 sentences.
+41069.0 41197.0 36925.0
+System total recall: 0.896303128868607
+System total precision: 0.8990966422362365
+System total F1: 0.8976977122991272
+Iteration 309
+Ran 19 iterations, total processed 5871 sentences.
+41126.0 41197.0 37085.0
+System total recall: 0.9001869068136029
+System total precision: 0.9017409911005203
+System total F1: 0.9009632787920752
+Iteration 310
+Ran 41 iterations, total processed 12710 sentences.
+41248.0 41197.0 37171.0
+System total recall: 0.9022744374590382
+System total precision: 0.9011588440651668
+System total F1: 0.9017162957122931
+Iteration 311
+Ran 29 iterations, total processed 9019 sentences.
+41019.0 41197.0 37058.0
+System total recall: 0.8995315192853849
+System total precision: 0.9034349935395792
+System total F1: 0.9014790308455775
+Iteration 312
+Ran 24 iterations, total processed 7488 sentences.
+41308.0 41197.0 37088.0
+System total recall: 0.9002597276500716
+System total precision: 0.8978406119879926
+System total F1: 0.899048542512575
+Iteration 313
+Ran 27 iterations, total processed 8451 sentences.
+41298.0 41197.0 37094.0
+System total recall: 0.900405369323009
+System total precision: 0.8982033028233812
+System total F1: 0.8993029880598824
+Iteration 314
+Ran 35 iterations, total processed 10990 sentences.
+41222.0 41197.0 37197.0
+System total recall: 0.9029055513751001
+System total precision: 0.902357964193877
+System total F1: 0.9026316747351946
+Iteration 315
+Ran 25 iterations, total processed 7875 sentences.
+40985.0 41197.0 37126.0
+System total recall: 0.9011821249120081
+System total precision: 0.9058436013175553
+System total F1: 0.9035068506485605
+Iteration 316
+Ran 8 iterations, total processed 2528 sentences.
+41318.0 41197.0 36954.0
+System total recall: 0.8970070636211375
+System total precision: 0.8943801732900915
+System total F1: 0.89569169241956
+Iteration 317
+Ran 28 iterations, total processed 8876 sentences.
+40907.0 41197.0 37000.0
+System total recall: 0.8981236497803238
+System total precision: 0.9044906739677806
+System total F1: 0.9012959173730878
+Iteration 318
+Ran 19 iterations, total processed 6042 sentences.
+41002.0 41197.0 37210.0
+System total recall: 0.9032211083331311
+System total precision: 0.9075167065021218
+System total F1: 0.9053638122118274
+Iteration 319
+Ran 12 iterations, total processed 3828 sentences.
+41425.0 41197.0 36886.0
+System total recall: 0.8953564579945141
+System total precision: 0.8904284852142426
+System total F1: 0.8928856720970202
+Iteration 320
+Ran 18 iterations, total processed 5760 sentences.
+41092.0 41197.0 37172.0
+System total recall: 0.9022987110711945
+System total precision: 0.9046043025406405
+System total F1: 0.903450035849263
+Iteration 321
+Ran 17 iterations, total processed 5457 sentences.
+41302.0 41197.0 37276.0
+System total recall: 0.9048231667354419
+System total precision: 0.9025228802479299
+System total F1: 0.9036715596552686
+Iteration 322
+Ran 29 iterations, total processed 9338 sentences.
+41131.0 41197.0 37057.0
+System total recall: 0.8995072456732286
+System total precision: 0.9009506211859668
+System total F1: 0.9002283548731902
+Iteration 323
+Ran 16 iterations, total processed 5168 sentences.
+41061.0 41197.0 36925.0
+System total recall: 0.896303128868607
+System total precision: 0.8992718151043569
+System total F1: 0.8977850178706023
+Iteration 324
+Ran 27 iterations, total processed 8748 sentences.
+41306.0 41197.0 37386.0
+System total recall: 0.9074932640726266
+System total precision: 0.9050985329007892
+System total F1: 0.9062943165703066
+Iteration 325
+Ran 35 iterations, total processed 11375 sentences.
+41214.0 41197.0 37213.0
+System total recall: 0.9032939291695997
+System total precision: 0.9029213374096181
+System total F1: 0.9031075948599094
+Iteration 326
+Ran 25 iterations, total processed 8150 sentences.
+41407.0 41197.0 37261.0
+System total recall: 0.9044590625530985
+System total precision: 0.8998720023184485
+System total F1: 0.9021597017093603
+Iteration 327
+Ran 23 iterations, total processed 7521 sentences.
+41148.0 41197.0 37064.0
+System total recall: 0.8996771609583222
+System total precision: 0.9007485175464178
+System total F1: 0.9002125204930476
+Iteration 328
+Ran 17 iterations, total processed 5576 sentences.
+41121.0 41197.0 37363.0
+System total recall: 0.9069349709930334
+System total precision: 0.908611171907298
+System total F1: 0.9077722976748707
+Iteration 329
+Ran 12 iterations, total processed 3948 sentences.
+41277.0 41197.0 37384.0
+System total recall: 0.9074447168483142
+System total precision: 0.9056859752404487
+System total F1: 0.9065644930523559
+Iteration 330
+Ran 39 iterations, total processed 12870 sentences.
+41129.0 41197.0 37138.0
+System total recall: 0.9014734082578828
+System total precision: 0.9029638454618396
+System total F1: 0.9022180113208463
+Iteration 331
+Ran 18 iterations, total processed 5958 sentences.
+41178.0 41197.0 37350.0
+System total recall: 0.9066194140350026
+System total precision: 0.9070377385982806
+System total F1: 0.9068285280728376
+Iteration 332
+Ran 15 iterations, total processed 4980 sentences.
+41089.0 41197.0 37221.0
+System total recall: 0.9034881180668495
+System total precision: 0.9058628830100514
+System total F1: 0.9046739421043677
+Iteration 333
+Ran 35 iterations, total processed 11655 sentences.
+40962.0 41197.0 36955.0
+System total recall: 0.8970313372332936
+System total precision: 0.9021776280455056
+System total F1: 0.8995971226524179
+Iteration 334
+Ran 34 iterations, total processed 11356 sentences.
+41274.0 41197.0 37231.0
+System total recall: 0.9037308541884118
+System total precision: 0.902044870863013
+System total F1: 0.9028870754568272
+Iteration 335
+Ran 12 iterations, total processed 4020 sentences.
+41131.0 41197.0 37299.0
+System total recall: 0.905381459815035
+System total precision: 0.9068342612627945
+System total F1: 0.9061072782042562
+Iteration 336
+Ran 14 iterations, total processed 4704 sentences.
+41197.0 41197.0 37269.0
+System total recall: 0.9046532514503484
+System total precision: 0.9046532514503484
+System total F1: 0.9046532514503484
+Iteration 337
+Ran 18 iterations, total processed 6066 sentences.
+41223.0 41197.0 37316.0
+System total recall: 0.9057941112216908
+System total precision: 0.9052228125075807
+System total F1: 0.9055083717544286
+Iteration 338
+Ran 16 iterations, total processed 5408 sentences.
+41124.0 41197.0 37306.0
+System total recall: 0.9055513751001286
+System total precision: 0.9071588366890381
+System total F1: 0.9063543931682074
+Iteration 339
+Ran 13 iterations, total processed 4407 sentences.
+41228.0 41197.0 37170.0
+System total recall: 0.9022501638468821
+System total precision: 0.9015717473561657
+System total F1: 0.9019108280254777
+Iteration 340
+Ran 26 iterations, total processed 8840 sentences.
+41040.0 41197.0 37211.0
+System total recall: 0.9032453819452873
+System total precision: 0.9067007797270955
+System total F1: 0.9049697824580177
+Iteration 341
+Ran 11 iterations, total processed 3751 sentences.
+41299.0 41197.0 37299.0
+System total recall: 0.905381459815035
+System total precision: 0.9031453546090704
+System total F1: 0.904262024825446
+Iteration 342
+Ran 27 iterations, total processed 9234 sentences.
+41071.0 41197.0 37259.0
+System total recall: 0.904410515328786
+System total precision: 0.90718511845341
+System total F1: 0.9057956921281665
+Iteration 343
+Ran 22 iterations, total processed 7546 sentences.
+41032.0 41197.0 37304.0
+System total recall: 0.9055028278758162
+System total precision: 0.9091440826671866
+System total F1: 0.9073198020163202
+Iteration 344
+Ran 29 iterations, total processed 9976 sentences.
+41163.0 41197.0 37206.0
+System total recall: 0.9031240138845061
+System total precision: 0.903869980322134
+System total F1: 0.9034968431277319
+Iteration 345
+Ran 33 iterations, total processed 11385 sentences.
+41109.0 41197.0 37149.0
+System total recall: 0.9017404179916013
+System total precision: 0.9036707290374371
+System total F1: 0.9027045415887056
+Iteration 346
+Ran 46 iterations, total processed 15916 sentences.
+41137.0 41197.0 37046.0
+System total recall: 0.8992402359395102
+System total precision: 0.9005518146680603
+System total F1: 0.8998955474044744
+Iteration 347
+Ran 27 iterations, total processed 9369 sentences.
+41146.0 41197.0 37162.0
+System total recall: 0.9020559749496323
+System total precision: 0.9031740630924027
+System total F1: 0.9026146727712131
+Iteration 348
+Ran 37 iterations, total processed 12876 sentences.
+41053.0 41197.0 37229.0
+System total recall: 0.9036823069640993
+System total precision: 0.9068521179938128
+System total F1: 0.9052644376899696
+Iteration 349
+Ran 27 iterations, total processed 9423 sentences.
+40866.0 41197.0 37131.0
+System total recall: 0.9013034929727893
+System total precision: 0.9086037292614888
+System total F1: 0.9049388884149983
+Iteration 350
+Ran 29 iterations, total processed 10150 sentences.
+41274.0 41197.0 37102.0
+System total recall: 0.9005995582202587
+System total precision: 0.8989194165818675
+System total F1: 0.8997587030592572
+Iteration 351
+Ran 31 iterations, total processed 10881 sentences.
+41145.0 41197.0 37226.0
+System total recall: 0.9036094861276307
+System total precision: 0.9047514886377446
+System total F1: 0.9041801267882733
+Iteration 352
+Ran 23 iterations, total processed 8096 sentences.
+41164.0 41197.0 37249.0
+System total recall: 0.9041677792072238
+System total precision: 0.9048926246234574
+System total F1: 0.9045300567015943
+Iteration 353
+Ran 25 iterations, total processed 8825 sentences.
+40920.0 41197.0 37032.0
+System total recall: 0.898900405369323
+System total precision: 0.9049853372434018
+System total F1: 0.9019326083514985
+Iteration 354
+Ran 31 iterations, total processed 10974 sentences.
+41051.0 41197.0 37146.0
+System total recall: 0.9016675971551327
+System total precision: 0.9048744244963582
+System total F1: 0.9032681645754304
+Iteration 355
+Ran 22 iterations, total processed 7810 sentences.
+41069.0 41197.0 37121.0
+System total recall: 0.901060756851227
+System total precision: 0.9038690983466848
+System total F1: 0.9024627428099093
+Iteration 356
+Ran 21 iterations, total processed 7476 sentences.
+41093.0 41197.0 37212.0
+System total recall: 0.9032696555574435
+System total precision: 0.9055556907502494
+System total F1: 0.9044112285818448
+Iteration 357
+Ran 11 iterations, total processed 3927 sentences.
+41290.0 41197.0 37348.0
+System total recall: 0.9065708668106901
+System total precision: 0.9045289416323565
+System total F1: 0.9055487531368579
+Iteration 358
+Ran 24 iterations, total processed 8592 sentences.
+41068.0 41197.0 37190.0
+System total recall: 0.9027356360900065
+System total precision: 0.9055712476867634
+System total F1: 0.9041512186227436
+Iteration 359
+Ran 18 iterations, total processed 6462 sentences.
+41262.0 41197.0 37299.0
+System total recall: 0.905381459815035
+System total precision: 0.903955213028937
+System total F1: 0.9046677742878279
+Iteration 360
+Ran 26 iterations, total processed 9360 sentences.
+41068.0 41197.0 37265.0
+System total recall: 0.9045561570017234
+System total precision: 0.9073974870945749
+System total F1: 0.905974594298912
+Iteration 361
+Ran 28 iterations, total processed 10108 sentences.
+41227.0 41197.0 37380.0
+System total recall: 0.9073476223996892
+System total precision: 0.906687365076285
+System total F1: 0.9070173735805105
+Iteration 362
+Ran 20 iterations, total processed 7240 sentences.
+41111.0 41197.0 37321.0
+System total recall: 0.9059154792824721
+System total precision: 0.9078105616501666
+System total F1: 0.9068620304223162
+Iteration 363
+Ran 28 iterations, total processed 10164 sentences.
+41102.0 41197.0 37183.0
+System total recall: 0.9025657208049129
+System total precision: 0.9046518417595251
+System total F1: 0.9036075772488122
+Iteration 364
+Ran 31 iterations, total processed 11284 sentences.
+41188.0 41197.0 37343.0
+System total recall: 0.906449498749909
+System total precision: 0.9066475672525979
+System total F1: 0.9065485221824361
+Iteration 365
+Ran 21 iterations, total processed 7665 sentences.
+40956.0 41197.0 37206.0
+System total recall: 0.9031240138845061
+System total precision: 0.9084383240550835
+System total F1: 0.9057733740703322
+Iteration 366
+Ran 13 iterations, total processed 4758 sentences.
+41190.0 41197.0 37337.0
+System total recall: 0.9063038570769716
+System total precision: 0.9064578781257587
+System total F1: 0.9063808610581766
+Iteration 367
+Ran 18 iterations, total processed 6606 sentences.
+41044.0 41197.0 37434.0
+System total recall: 0.9086583974561254
+System total precision: 0.9120456095897086
+System total F1: 0.9103488527620044
+Iteration 368
+Ran 17 iterations, total processed 6256 sentences.
+41182.0 41197.0 37436.0
+System total recall: 0.9087069446804379
+System total precision: 0.9090379291923656
+System total F1: 0.9088724068027045
+Iteration 369
+Ran 22 iterations, total processed 8118 sentences.
+rra41183.0 41197.0 37293.0
+System total recall: 0.9052358181420977
+System total precision: 0.9055435495228614
+System total F1: 0.9053896576839039
+Iteration 370
+Ran 17 iterations, total processed 6290 sentences.
+41151.0 41197.0 37462.0
+System total recall: 0.9093380585964997
+System total precision: 0.9103545478846201
+System total F1: 0.9098460193325886
+Iteration 371
+Ran 27 iterations, total processed 10017 sentences.
+41002.0 41197.0 37321.0
+System total recall: 0.9059154792824721
+System total precision: 0.910223891517487
+System total F1: 0.9080645749948296
+Iteration 372
+Ran 23 iterations, total processed 8556 sentences.
+41327.0 41197.0 37402.0
+System total recall: 0.9078816418671263
+System total precision: 0.9050257700776732
+System total F1: 0.9064514565459745
+Iteration 373
+Ran 17 iterations, total processed 6341 sentences.
+41170.0 41197.0 37400.0
+System total recall: 0.9078330946428138
+System total precision: 0.9084284673305805
+System total F1: 0.9081306834047617
+Iteration 374
+Ran 21 iterations, total processed 7854 sentences.
+41066.0 41197.0 37221.0
+System total recall: 0.9034881180668495
+System total precision: 0.9063702332830078
+System total F1: 0.9049268808577368
+Iteration 375
+Ran 33 iterations, total processed 12375 sentences.
+41179.0 41197.0 37246.0
+System total recall: 0.9040949583707552
+System total precision: 0.9044901527477598
+System total F1: 0.9042925123822473
+Iteration 376
+Ran 29 iterations, total processed 10904 sentences.
+41095.0 41197.0 37257.0
+System total recall: 0.9043619681044737
+System total precision: 0.9066066431439348
+System total F1: 0.9054829144995868
+Iteration 377
+Ran 14 iterations, total processed 5278 sentences.
+41161.0 41197.0 37445.0
+System total recall: 0.9089254071898439
+System total precision: 0.9097203663662204
+System total F1: 0.9093227130333422
+Iteration 378
+Ran 20 iterations, total processed 7560 sentences.
+41225.0 41197.0 37456.0
+System total recall: 0.9091924169235623
+System total precision: 0.9085748938750758
+System total F1: 0.9088835505083595
+Iteration 379
+Ran 17 iterations, total processed 6443 sentences.
+41073.0 41197.0 37391.0
+System total recall: 0.9076146321334078
+System total precision: 0.910354734253646
+System total F1: 0.9089826182083384
+Iteration 380
+Ran 41 iterations, total processed 15580 sentences.
+41073.0 41197.0 37191.0
+System total recall: 0.9027599097021628
+System total precision: 0.905485355342926
+System total F1: 0.9041205785827154
+Iteration 381
+Ran 33 iterations, total processed 12573 sentences.
+41295.0 41197.0 37523.0
+System total recall: 0.9108187489380295
+System total precision: 0.9086572224240222
+System total F1: 0.9097367017407748
+Iteration 382
+Ran 29 iterations, total processed 11078 sentences.
+41217.0 41197.0 37332.0
+System total recall: 0.9061824890161905
+System total precision: 0.905742776039013
+System total F1: 0.9059625791734414
+Iteration 383
+Ran 22 iterations, total processed 8426 sentences.
+41177.0 41197.0 37410.0
+System total recall: 0.908075830764376
+System total precision: 0.9085168904971221
+System total F1: 0.9082963070871877
+Iteration 384
+Ran 43 iterations, total processed 16512 sentences.
+41097.0 41197.0 37421.0
+System total recall: 0.9083428404980946
+System total precision: 0.9105530817334598
+System total F1: 0.9094466182224706
+Iteration 385
+Ran 20 iterations, total processed 7700 sentences.
+41193.0 41197.0 37540.0
+System total recall: 0.9112314003446853
+System total precision: 0.9113198844463866
+System total F1: 0.9112756402476029
+Iteration 386
+Ran 11 iterations, total processed 4246 sentences.
+40850.0 41197.0 37311.0
+System total recall: 0.9056727431609097
+System total precision: 0.9133659730722155
+System total F1: 0.9095030896924933
+Iteration 387
+Ran 15 iterations, total processed 5805 sentences.
+41346.0 41197.0 37383.0
+System total recall: 0.907420443236158
+System total precision: 0.9041503410245247
+System total F1: 0.9057824406672885
+Iteration 388
+Ran 35 iterations, total processed 13580 sentences.
+41214.0 41197.0 37310.0
+System total recall: 0.9056484695487536
+System total precision: 0.905274906585141
+System total F1: 0.9054616495370763
+Iteration 389
+Ran 25 iterations, total processed 9725 sentences.
+41134.0 41197.0 37346.0
+System total recall: 0.9065223195863776
+System total precision: 0.9079107307823212
+System total F1: 0.9072159939755378
+Iteration 390
+Ran 34 iterations, total processed 13260 sentences.
+41060.0 41197.0 37365.0
+System total recall: 0.9069835182173459
+System total precision: 0.910009741841208
+System total F1: 0.9084941099237754
+Iteration 391
+Ran 11 iterations, total processed 4301 sentences.
+40889.0 41197.0 37375.0
+System total recall: 0.9072262543389081
+System total precision: 0.9140600161412605
+System total F1: 0.9106303145481568
+Iteration 392
+Ran 16 iterations, total processed 6272 sentences.
+41190.0 41197.0 37633.0
+System total recall: 0.9134888462752142
+System total precision: 0.9136440883709638
+System total F1: 0.9135664607280275
+Iteration 393
+Ran 14 iterations, total processed 5502 sentences.
+41127.0 41197.0 37393.0
+System total recall: 0.9076631793577202
+System total precision: 0.9092080628297712
+System total F1: 0.9084349642874496
+Iteration 394
+Ran 20 iterations, total processed 7880 sentences.
+41224.0 41197.0 37521.0
+System total recall: 0.910770201713717
+System total precision: 0.9101736852319038
+System total F1: 0.9104718457674622
+Iteration 395
+Ran 43 iterations, total processed 16985 sentences.
+41012.0 41197.0 37439.0
+System total recall: 0.9087797655169065
+System total precision: 0.9128791573198088
+System total F1: 0.9108248488608304
+Iteration 396
+Ran 33 iterations, total processed 13068 sentences.
+41155.0 41197.0 37436.0
+System total recall: 0.9087069446804379
+System total precision: 0.9096343093184304
+System total F1: 0.9091703905187488
+Iteration 397
+Ran 32 iterations, total processed 12704 sentences.
+41071.0 41197.0 37448.0
+System total recall: 0.9089982280263126
+System total precision: 0.9117869056024932
+System total F1: 0.9103904312733991
+Iteration 398
+Ran 21 iterations, total processed 8358 sentences.
+41453.0 41197.0 37442.0
+System total recall: 0.9088525863533753
+System total precision: 0.9032398137649869
+System total F1: 0.9060375075620085
+Iteration 399
+Ran 19 iterations, total processed 7581 sentences.
+41310.0 41197.0 37571.0
+System total recall: 0.9119838823215283
+System total precision: 0.9094892277898814
+System total F1: 0.9107348467402766
+Iteration 400
+Ran 40 iterations, total processed 16000 sentences.
+41144.0 41197.0 37387.0
+System total recall: 0.9075175376847828
+System total precision: 0.9086865642621038
+System total F1: 0.9081016747428378
+Iteration 401

@@ -8,10 +8,12 @@ import edu.cmu.lti.weizh.docmodel.Document;
 import edu.cmu.lti.weizh.docmodel.Paragraph;
 import edu.cmu.lti.weizh.docmodel.Sentence;
 import edu.cmu.lti.weizh.docmodel.Word;
+import edu.cmu.lti.weizh.eval.Prediction;
 import edu.cmu.lti.weizh.feature.FCONST;
 import edu.cmu.lti.weizh.feature.Feature;
 import edu.cmu.lti.weizh.feature.Theta;
 import edu.cmu.lti.weizh.mlmodel.PerceptronFDMM;
+import edu.cmu.lti.weizh.mlmodel.PerceptronFDMM.iNode;
 import edu.cmu.lti.weizh.train.AbstractPercTrain;
 
 public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, DataSet> {
@@ -23,17 +25,19 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, Data
 
 	List<Sentence> trainedSentences;
 
-	static String thd;
-	static String tvd;
-	static String fhd;
-	static String fvd;
-
-	static String[] thetaHeaders;
-	static String[] featureHeaders;
-
 	static FCONST.LEARNERTYPE type = null;
 
-	public static void setTypeBeforeCreate(FCONST.LEARNERTYPE learnerType) {
+	ActiveLearner(FCONST.LEARNERTYPE learnerType) {
+
+		setTypeBeforeCreate(learnerType);
+		this.pfdmm = new PerceptronFDMM();
+
+		Theta.setTHETA_HEADERS(thetaHeaders);
+
+		trainedSentences = new ArrayList<Sentence>();
+	}
+
+	private void setTypeBeforeCreate(FCONST.LEARNERTYPE learnerType) {
 		type = learnerType;
 		switch (type) {
 		case CONLL2KChunking:
@@ -52,11 +56,6 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, Data
 			throw new UnsupportedOperationException("The type of ActiveLearner is not defined.");
 	}
 
-	ActiveLearner() {
-		super(thetaHeaders, Theta.getThd(), Theta.getTvd(), featureHeaders, Feature.getFhd(), Feature.getFhd());
-		trainedSentences = new ArrayList<Sentence>();
-	}
-
 	public void resetModel() {
 		this.pfdmm = new PerceptronFDMM();
 	}
@@ -64,22 +63,24 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, Data
 	public List<Sentence> getSentences() {
 		return trainedSentences;
 	}
-
+	public void setSentences( List<Sentence> sent ) {
+		 trainedSentences = sent;
+	}
 	@Override
 	protected String getGoldLabel(Word w) {
 
-		if (type.equals(FCONST.LEARNERTYPE.WebCrawl)) {
+		if (type.equals(FCONST.LEARNERTYPE.CONLL2kPOS)) {
+			return w.getPartOfSpeech();
+		} else if (type.equals(FCONST.LEARNERTYPE.OntoNotesNewsNER)) {
+			return w.getEntityType();
+		} else if (type.equals(FCONST.LEARNERTYPE.CONLL2KChunking)) {
+			return w.getChunkType();
+		} else if (type.equals(FCONST.LEARNERTYPE.WebCrawl)) {
 			String i = w.getEntityType();
 			if (i == null)
 				return "[O]";
 			if (i.equalsIgnoreCase("o"))
 				return "ORG";
-		} else if (type.equals(FCONST.LEARNERTYPE.CONLL2KChunking)) {
-			return w.getChunkType();
-		} else if (type.equals(FCONST.LEARNERTYPE.CONLL2kPOS)) {
-			return w.getPartOfSpeech();
-		} else if (type.equals(FCONST.LEARNERTYPE.OntoNotesNewsNER)) {
-			return w.getEntityType();
 		}
 		return null;
 	}
@@ -111,6 +112,84 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, Data
 
 	public void addTrainingSentence(Sentence value) {
 		this.trainedSentences.add(value);
+	}
 
+	public Prediction[] predictBestWithProbabilities(Sentence s) throws Exception {
+
+		List<Word> words = s.getWords();
+
+		List<Theta<String>> thetas = new ArrayList<Theta<String>>(words.size());
+		List<List<Feature<String>>> features = new ArrayList<List<Feature<String>>>(words.size());
+		String[] goldLabels = new String[words.size()];
+
+		for (int i = 0; i < words.size(); i++) {
+			Word w = words.get(i);
+			Theta<String> theta = new Theta<String>(w);
+			thetas.add(theta);
+			List<Feature<String>> feats = new ArrayList<Feature<String>>(getFeatureHeaders().length);
+			for (String fheader : getFeatureHeaders())
+				feats.add(new Feature<String>(fheader, s, i));
+			features.add(feats);
+			goldLabels[i] = (getGoldLabel(w));
+		}
+		int denom = getIterationsUsed() * getTotalSentProcessed();
+		String[] predictions;
+		predictions = getModel().viterbiDecodeAvgParam(thetas, features, denom);
+		Prediction[] predProbs = getModel().maxProductAvgParam(thetas, features, denom);
+		
+		for (int i = 0 ; i < predProbs.length; i++){
+			predProbs[i].setBestCandidateName(predictions[i]);
+		}
+		predictions = Prediction2String(predProbs);
+		
+		setPredictions(words, predictions);
+
+		return predProbs;
+	}
+
+	public iNode[] predictNBest(Sentence s, int N) throws Exception {
+
+		List<Word> words = s.getWords();
+
+		List<Theta<String>> thetas = new ArrayList<Theta<String>>(words.size());
+		List<List<Feature<String>>> features = new ArrayList<List<Feature<String>>>(words.size());
+		String[] goldLabels = new String[words.size()];
+
+		for (int i = 0; i < words.size(); i++) {
+			Word w = words.get(i);
+			Theta<String> theta = new Theta<String>(w);
+			thetas.add(theta);
+			List<Feature<String>> feats = new ArrayList<Feature<String>>(getFeatureHeaders().length);
+			for (String fheader : getFeatureHeaders())
+				feats.add(new Feature<String>(fheader, s, i));
+			features.add(feats);
+			goldLabels[i] = (getGoldLabel(w));
+		}
+		int denom = getIterationsUsed() * getTotalSentProcessed();
+		iNode[] predictions;
+		predictions = getModel().viterbiDecodeAvgParam(thetas, features, denom, N);
+		String [] strPreds = predictions[0].getSequence();
+		setPredictions(words, strPreds);
+
+		return predictions;
+	}
+
+	private String[] Prediction2String(Prediction[] preds) {
+		String p[] = new String[preds.length];
+		for (int i = 0; i < p.length; i++) {
+			p[i] = preds[i].getBestCandidateName();
+		}
+		return p;
+	}
+
+	private void setPredictions(List<Word> words, String[] predictions) {
+		int i = 0;
+		for (Word w : words) {
+			try {
+				w.setPrediction(predictions[i++]);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
 	}
 }

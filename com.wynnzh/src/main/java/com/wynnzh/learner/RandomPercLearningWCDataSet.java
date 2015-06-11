@@ -22,8 +22,7 @@ public class RandomPercLearningWCDataSet {
 		DataSet runningData = new DataSet(1, "Running DataSet in each iteration.");
 		runningData.getDocuments().add(new Document("Running doc in dataset"));
 		
-		ActiveLearner.setTypeBeforeCreate(LEARNERTYPE.OntoNotesNewsNER);
-		ActiveLearner aner = new ActiveLearner();
+		ActiveLearner aner = new ActiveLearner(LEARNERTYPE.OntoNotesNewsNER);
 		
 		int T= 1000;int t = 0 ;
 		for (SentenceSample s : test) if ((t++)<T){

@@ -13,12 +13,15 @@ public class RandomPercLearningDataSet {
 
 	public static void main(String argv[]) throws Exception{
 		
+//		DataSet  train = DataFactory.getCONLL2kTrain();
+//		DataSet  test = DataFactory.getCONLL2kTest();
+		
 		DataSet  train = DataFactory.getCONLL2kTrain();
 		DataSet  test = DataFactory.getCONLL2kTest();
+		
 		List<Sentence> sents = Utils.getSentences(train);
 		
-		ActiveLearner.setTypeBeforeCreate(LEARNERTYPE.CONLL2KChunking);
-		ActiveLearner aner = new ActiveLearner();
+		ActiveLearner aner = new ActiveLearner(LEARNERTYPE.CONLL2kPOS);
 		
 		int T= 1000;int t = 0 ;
 		for (Sentence s : sents) if ((t++)<T){
