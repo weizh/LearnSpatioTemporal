@@ -132,7 +132,7 @@ public class EnsemblePercLearning extends Storable<EnsemblePercLearning> {
 		
 		int iter = 0; 
 		for (Sentence c : testSentences) {
-			System.out.println("Tested sentence #" + (iter++));
+			 if ((iter++) %100 ==0) System.out.println("Tested " + (iter-1) + " sentences");
 			Prediction[] finalPred = new Prediction[c.getWords().size()];
 			Prediction[] indFinalPred = new Prediction[c.getWords().size()];
 			for(int i =0 ; i< c.getWords().size(); i++){
@@ -226,7 +226,7 @@ public class EnsemblePercLearning extends Storable<EnsemblePercLearning> {
 		double maxUtil = Double.NEGATIVE_INFINITY;
 		Sentence maxSentence = null;
 		for (int i = 0; i < u.size(); i++) {
-			// System.out.println("Checking out sentence " + i);
+			 if (i%1000==0) System.out.println("Checking out sentence " + i);
 			double util = utility(u.get(i), ensemble);
 			if (util > maxUtil) {
 				util = maxUtil;
