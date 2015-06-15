@@ -1,0 +1,388 @@
+ CONLL2k POS, 20 cold start AND reweighting.
+Total final test sentence # is :2012
+Initial U size is:8936
+Initial T size is:0
+iteration 0
+Selecting next best sentence to annotate (simulation)
+T size is :20
+U size is :8916
+8916
+Creating new ensembles with new training set
+Ran 7 iterations, total processed 133 sentences.
+Ran 4 iterations, total processed 72 sentences.
+Ran 5 iterations, total processed 95 sentences.
+Ran 7 iterations, total processed 140 sentences.
+Ran 5 iterations, total processed 115 sentences.
+Test ensemble on test data
+Tested 0 sentences
+Tested 100 sentences
+Tested 200 sentences
+Tested 300 sentences
+Tested 400 sentences
+Tested 500 sentences
+Tested 600 sentences
+Tested 700 sentences
+Tested 800 sentences
+Tested 900 sentences
+Tested 1000 sentences
+Tested 1100 sentences
+Tested 1200 sentences
+Tested 1300 sentences
+Tested 1400 sentences
+Tested 1500 sentences
+Tested 1600 sentences
+Tested 1700 sentences
+Tested 1800 sentences
+Tested 1900 sentences
+Tested 2000 sentences
+Sequence probability used:
+47377.0 47377.0 41009.0
+System total recall: 0.8655887878084303
+System total precision: 0.8655887878084303
+System total F1: 0.8655887878084303
+Individual probability (fb algorithm) used:
+47377.0 47377.0 44385.0
+System total recall: 0.936846993266775
+System total precision: 0.936846993266775
+System total F1: 0.936846993266775
+iteration 1
+Selecting next best sentence to annotate (simulation)
+Checking out sentence 0
+Checking out sentence 1000
+Checking out sentence 2000
+Checking out sentence 3000
+Checking out sentence 4000
+Checking out sentence 5000
+Checking out sentence 6000
+Checking out sentence 7000
+Checking out sentence 8000
+Utility found Sentence: [It	[POS:PRP]	[NE:null]	[CHUNK:B-NP], is	[POS:VBZ]	[NE:null]	[CHUNK:B-VP], also	[POS:RB]	[NE:null]	[CHUNK:I-VP], pulling	[POS:VBG]	[NE:null]	[CHUNK:I-VP], 20	[POS:CD]	[NE:null]	[CHUNK:B-NP], people	[POS:NNS]	[NE:null]	[CHUNK:I-NP], out	[POS:IN]	[NE:null]	[CHUNK:B-PP], of	[POS:IN]	[NE:null]	[CHUNK:B-PP], Puerto	[POS:NNP]	[NE:null]	[CHUNK:B-NP], Rico	[POS:NNP]	[NE:null]	[CHUNK:I-NP], ,	[POS:,]	[NE:null]	[CHUNK:O], who	[POS:WP]	[NE:null]	[CHUNK:B-NP], were	[POS:VBD]	[NE:null]	[CHUNK:B-VP], helping	[POS:VBG]	[NE:null]	[CHUNK:I-VP], Huricane	[POS:NNP]	[NE:null]	[CHUNK:B-NP], Hugo	[POS:NNP]	[NE:null]	[CHUNK:I-NP], victims	[POS:NNS]	[NE:null]	[CHUNK:I-NP], ,	[POS:,]	[NE:null]	[CHUNK:O], and	[POS:CC]	[NE:null]	[CHUNK:O], sending	[POS:VBG]	[NE:null]	[CHUNK:B-VP], them	[POS:PRP]	[NE:null]	[CHUNK:B-NP], to	[POS:TO]	[NE:null]	[CHUNK:B-PP], San	[POS:NNP]	[NE:null]	[CHUNK:B-NP], Francisco	[POS:NNP]	[NE:null]	[CHUNK:I-NP], instead	[POS:RB]	[NE:null]	[CHUNK:B-ADVP], .	[POS:.]	[NE:null]	[CHUNK:O]]
+T size is :21
+U size is :8915
+8915
+Creating new ensembles with new training set
+Ran 5 iterations, total processed 110 sentences.
+Ran 6 iterations, total processed 150 sentences.
+Ran 6 iterations, total processed 126 sentences.
+Ran 4 iterations, total processed 84 sentences.
+Ran 9 iterations, total processed 162 sentences.Test ensemble on test data
+
+Tested 0 sentences
+Tested 100 sentences
+Tested 200 sentences
+Tested 300 sentences
+Tested 400 sentences
+Tested 500 sentences
+Tested 600 sentences
+Tested 700 sentences
+Tested 800 sentences
+Tested 900 sentences
+Tested 1000 sentences
+Tested 1100 sentences
+Tested 1200 sentences
+Tested 1300 sentences
+Tested 1400 sentences
+Tested 1500 sentences
+Tested 1600 sentences
+Tested 1700 sentences
+Tested 1800 sentences
+Tested 1900 sentences
+Tested 2000 sentences
+Sequence probability used:
+47377.0 47377.0 41085.0
+System total recall: 0.8671929417227768
+System total precision: 0.8671929417227768
+System total F1: 0.8671929417227768
+Individual probability (fb algorithm) used:
+47377.0 47377.0 44543.0
+System total recall: 0.9401819448255483
+System total precision: 0.9401819448255483
+System total F1: 0.9401819448255483
+iteration 2
+Selecting next best sentence to annotate (simulation)
+Checking out sentence 0
+Checking out sentence 1000
+Checking out sentence 2000
+Checking out sentence 3000
+Checking out sentence 4000
+Checking out sentence 5000
+Checking out sentence 6000
+Checking out sentence 7000
+Checking out sentence 8000
+Utility found Sentence: [The	[POS:DT]	[NE:null]	[CHUNK:B-NP], Los	[POS:NNP]	[NE:null]	[CHUNK:I-NP], Angeles	[POS:NNP]	[NE:null]	[CHUNK:I-NP], Red	[POS:NNP]	[NE:null]	[CHUNK:I-NP], Cross	[POS:NNP]	[NE:null]	[CHUNK:I-NP], sent	[POS:VBD]	[NE:null]	[CHUNK:B-VP], 2,480	[POS:CD]	[NE:null]	[CHUNK:B-NP], cots	[POS:NNS]	[NE:null]	[CHUNK:I-NP], ,	[POS:,]	[NE:null]	[CHUNK:O], 500	[POS:CD]	[NE:null]	[CHUNK:B-NP], blankets	[POS:NNS]	[NE:null]	[CHUNK:I-NP], ,	[POS:,]	[NE:null]	[CHUNK:O], and	[POS:CC]	[NE:null]	[CHUNK:O], 300	[POS:CD]	[NE:null]	[CHUNK:B-NP], pints	[POS:NNS]	[NE:null]	[CHUNK:I-NP], of	[POS:IN]	[NE:null]	[CHUNK:B-PP], Type-O	[POS:JJ]	[NE:null]	[CHUNK:B-NP], blood	[POS:NN]	[NE:null]	[CHUNK:I-NP], .	[POS:.]	[NE:null]	[CHUNK:O]]
+T size is :22
+U size is :8914
+8914
+Creating new ensembles with new training set
+Ran 4 iterations, total processed 96 sentences.
+Ran 8 iterations, total processed 144 sentences.
+Ran 8 iterations, total processed 208 sentences.
+Ran 7 iterations, total processed 133 sentences.
+Ran 7 iterations, total processed 133 sentences.Test ensemble on test data
+
+Tested 0 sentences
+Tested 100 sentences
+Tested 200 sentences
+Tested 300 sentences
+Tested 400 sentences
+Tested 500 sentences
+Tested 600 sentences
+Tested 700 sentences
+Tested 800 sentences
+Tested 900 sentences
+Tested 1000 sentences
+Tested 1100 sentences
+Tested 1200 sentences
+Tested 1300 sentences
+Tested 1400 sentences
+Tested 1500 sentences
+Tested 1600 sentences
+Tested 1700 sentences
+Tested 1800 sentences
+Tested 1900 sentences
+Tested 2000 sentences
+Sequence probability used:
+47377.0 47377.0 42055.0
+System total recall: 0.887667011419043
+System total precision: 0.887667011419043
+System total F1: 0.887667011419043
+Individual probability (fb algorithm) used:
+47377.0 47377.0 44462.0
+System total recall: 0.9384722544694684
+System total precision: 0.9384722544694684
+System total F1: 0.9384722544694684
+iteration 3
+Selecting next best sentence to annotate (simulation)
+Checking out sentence 0
+Checking out sentence 1000
+Checking out sentence 2000
+Checking out sentence 3000
+Checking out sentence 4000
+Checking out sentence 5000
+Checking out sentence 6000
+Checking out sentence 7000
+Checking out sentence 8000
+Utility found Sentence: [The	[POS:DT]	[NE:null]	[CHUNK:B-NP], amount	[POS:NN]	[NE:null]	[CHUNK:I-NP], would	[POS:MD]	[NE:null]	[CHUNK:B-VP], help	[POS:VB]	[NE:null]	[CHUNK:I-VP], Los	[POS:NNP]	[NE:null]	[CHUNK:B-NP], Angeles	[POS:NNP]	[NE:null]	[CHUNK:I-NP], cope	[POS:VB]	[NE:null]	[CHUNK:B-VP], in	[POS:IN]	[NE:null]	[CHUNK:B-PP], the	[POS:DT]	[NE:null]	[CHUNK:B-NP], first	[POS:JJ]	[NE:null]	[CHUNK:I-NP], few	[POS:JJ]	[NE:null]	[CHUNK:I-NP], weeks	[POS:NNS]	[NE:null]	[CHUNK:I-NP], after	[POS:IN]	[NE:null]	[CHUNK:B-PP], its	[POS:PRP$]	[NE:null]	[CHUNK:B-NP], own	[POS:JJ]	[NE:null]	[CHUNK:I-NP], anticipated	[POS:VBN]	[NE:null]	[CHUNK:I-NP], quake	[POS:NN]	[NE:null]	[CHUNK:I-NP], ,	[POS:,]	[NE:null]	[CHUNK:O], while	[POS:IN]	[NE:null]	[CHUNK:B-SBAR], waiting	[POS:VBG]	[NE:null]	[CHUNK:B-VP], for	[POS:IN]	[NE:null]	[CHUNK:B-SBAR], federal	[POS:JJ]	[NE:null]	[CHUNK:B-NP], assistance	[POS:NN]	[NE:null]	[CHUNK:I-NP], to	[POS:TO]	[NE:null]	[CHUNK:B-VP], arrive	[POS:VB]	[NE:null]	[CHUNK:I-VP], .	[POS:.]	[NE:null]	[CHUNK:O]]
+T size is :23
+U size is :8913
+8913
+Creating new ensembles with new training set
+Ran 8 iterations, total processed 168 sentences.
+Ran 8 iterations, total processed 176 sentences.
+Ran 7 iterations, total processed 154 sentences.
+Ran 6 iterations, total processed 162 sentences.
+Ran 6 iterations, total processed 150 sentences.Test ensemble on test data
+
+Tested 0 sentences
+Tested 100 sentences
+Tested 200 sentences
+Tested 300 sentences
+Tested 400 sentences
+Tested 500 sentences
+Tested 600 sentences
+Tested 700 sentences
+Tested 800 sentences
+Tested 900 sentences
+Tested 1000 sentences
+Tested 1100 sentences
+Tested 1200 sentences
+Tested 1300 sentences
+Tested 1400 sentences
+Tested 1500 sentences
+Tested 1600 sentences
+Tested 1700 sentences
+Tested 1800 sentences
+Tested 1900 sentences
+Tested 2000 sentences
+Sequence probability used:
+47377.0 47377.0 41559.0
+System total recall: 0.8771977963990966
+System total precision: 0.8771977963990966
+System total F1: 0.8771977963990966
+Individual probability (fb algorithm) used:
+47377.0 47377.0 44307.0
+System total recall: 0.9352006247757351
+System total precision: 0.9352006247757351
+System total F1: 0.9352006247757351
+iteration 4
+Selecting next best sentence to annotate (simulation)
+Checking out sentence 0
+Checking out sentence 1000
+Checking out sentence 2000
+Checking out sentence 3000
+Checking out sentence 4000
+Checking out sentence 5000
+Checking out sentence 6000
+Checking out sentence 7000
+Checking out sentence 8000
+Utility found Sentence: [But	[POS:CC]	[NE:null]	[CHUNK:O], a	[POS:DT]	[NE:null]	[CHUNK:B-NP], secondary	[POS:JJ]	[NE:null]	[CHUNK:I-NP], agenda	[POS:NN]	[NE:null]	[CHUNK:I-NP], among	[POS:IN]	[NE:null]	[CHUNK:B-PP], officials	[POS:NNS]	[NE:null]	[CHUNK:B-NP], in	[POS:IN]	[NE:null]	[CHUNK:B-PP], the	[POS:DT]	[NE:null]	[CHUNK:B-NP], City	[POS:NNP]	[NE:null]	[CHUNK:I-NP], of	[POS:IN]	[NE:null]	[CHUNK:B-PP], Angels	[POS:NNPS]	[NE:null]	[CHUNK:B-NP], was	[POS:VBD]	[NE:null]	[CHUNK:B-VP], to	[POS:TO]	[NE:null]	[CHUNK:B-VP], learn	[POS:VB]	[NE:null]	[CHUNK:I-VP], about	[POS:IN]	[NE:null]	[CHUNK:B-PP], the	[POS:DT]	[NE:null]	[CHUNK:B-NP], disaster-contingency	[POS:NN]	[NE:null]	[CHUNK:I-NP], plans	[POS:VBZ]	[NE:null]	[CHUNK:I-NP], that	[POS:DT]	[NE:null]	[CHUNK:B-NP], work	[POS:NN]	[NE:null]	[CHUNK:B-VP], and	[POS:CC]	[NE:null]	[CHUNK:O], those	[POS:DT]	[NE:null]	[CHUNK:B-NP], that	[POS:WDT]	[NE:null]	[CHUNK:B-NP], do	[POS:VBP]	[NE:null]	[CHUNK:B-VP], n't	[POS:RB]	[NE:null]	[CHUNK:O], .	[POS:.]	[NE:null]	[CHUNK:O]]
+T size is :24
+U size is :8912
+8912
+Creating new ensembles with new training set
+Ran 7 iterations, total processed 154 sentences.
+Ran 5 iterations, total processed 120 sentences.
+Ran 7 iterations, total processed 161 sentences.
+Ran 6 iterations, total processed 138 sentences.
+Ran 12 iterations, total processed 252 sentences.Test ensemble on test data
+
+Tested 0 sentences
+Tested 100 sentences
+Tested 200 sentences
+Tested 300 sentences
+Tested 400 sentences
+Tested 500 sentences
+Tested 600 sentences
+Tested 700 sentences
+Tested 800 sentences
+Tested 900 sentences
+Tested 1000 sentences
+Tested 1100 sentences
+Tested 1200 sentences
+Tested 1300 sentences
+Tested 1400 sentences
+Tested 1500 sentences
+Tested 1600 sentences
+Tested 1700 sentences
+Tested 1800 sentences
+Tested 1900 sentences
+Tested 2000 sentences
+Sequence probability used:
+47377.0 47377.0 40947.0
+System total recall: 0.864280135930937
+System total precision: 0.864280135930937
+System total F1: 0.864280135930937
+Individual probability (fb algorithm) used:
+47377.0 47377.0 44860.0
+System total recall: 0.9468729552314414
+System total precision: 0.9468729552314414
+System total F1: 0.9468729552314414
+iteration 5
+Selecting next best sentence to annotate (simulation)
+Checking out sentence 0
+Checking out sentence 1000
+Checking out sentence 2000
+Checking out sentence 3000
+Checking out sentence 4000
+Checking out sentence 5000
+Checking out sentence 6000
+Checking out sentence 7000
+Checking out sentence 8000
+Utility found Sentence: [Los	[POS:NNP]	[NE:null]	[CHUNK:B-NP], Angeles	[POS:NNP]	[NE:null]	[CHUNK:I-NP], Mayor	[POS:NNP]	[NE:null]	[CHUNK:I-NP], Tom	[POS:NNP]	[NE:null]	[CHUNK:I-NP], Bradley	[POS:NNP]	[NE:null]	[CHUNK:I-NP], used	[POS:VBD]	[NE:null]	[CHUNK:B-VP], the	[POS:DT]	[NE:null]	[CHUNK:B-NP], opportunity	[POS:NN]	[NE:null]	[CHUNK:I-NP], to	[POS:TO]	[NE:null]	[CHUNK:B-VP], push	[POS:VB]	[NE:null]	[CHUNK:I-VP], the	[POS:DT]	[NE:null]	[CHUNK:B-NP], City	[POS:NNP]	[NE:null]	[CHUNK:I-NP], Council	[POS:NNP]	[NE:null]	[CHUNK:I-NP], harder	[POS:JJR]	[NE:null]	[CHUNK:B-ADVP], to	[POS:TO]	[NE:null]	[CHUNK:B-VP], pass	[POS:VB]	[NE:null]	[CHUNK:I-VP], a	[POS:DT]	[NE:null]	[CHUNK:B-NP], measure	[POS:NN]	[NE:null]	[CHUNK:I-NP], establishing	[POS:VBG]	[NE:null]	[CHUNK:B-VP], a	[POS:DT]	[NE:null]	[CHUNK:B-NP], loss-recovery	[POS:JJ]	[NE:null]	[CHUNK:I-NP], reserve	[POS:NN]	[NE:null]	[CHUNK:I-NP], of	[POS:IN]	[NE:null]	[CHUNK:B-PP], $	[POS:$]	[NE:null]	[CHUNK:B-NP], 100	[POS:CD]	[NE:null]	[CHUNK:I-NP], million	[POS:CD]	[NE:null]	[CHUNK:I-NP], .	[POS:.]	[NE:null]	[CHUNK:O]]
+T size is :25
+U size is :8911
+8911
+Creating new ensembles with new training set
+Ran 7 iterations, total processed 161 sentences.
+Ran 7 iterations, total processed 161 sentences.
+Ran 5 iterations, total processed 110 sentences.
+Ran 5 iterations, total processed 140 sentences.
+Ran 6 iterations, total processed 156 sentences.Test ensemble on test data
+
+Tested 0 sentences
+Tested 100 sentences
+Tested 200 sentences
+Tested 300 sentences
+Tested 400 sentences
+Tested 500 sentences
+Tested 600 sentences
+Tested 700 sentences
+Tested 800 sentences
+Tested 900 sentences
+Tested 1000 sentences
+Tested 1100 sentences
+Tested 1200 sentences
+Tested 1300 sentences
+Tested 1400 sentences
+Tested 1500 sentences
+Tested 1600 sentences
+Tested 1700 sentences
+Tested 1800 sentences
+Tested 1900 sentences
+Tested 2000 sentences
+Sequence probability used:
+47377.0 47377.0 42444.0
+System total recall: 0.8958777465858961
+System total precision: 0.8958777465858961
+System total F1: 0.8958777465858961
+Individual probability (fb algorithm) used:
+47377.0 47377.0 44976.0
+System total recall: 0.9493214006796546
+System total precision: 0.9493214006796546
+System total F1: 0.9493214006796546
+iteration 6
+Selecting next best sentence to annotate (simulation)
+Checking out sentence 0
+Checking out sentence 1000
+Checking out sentence 2000
+Checking out sentence 3000
+Checking out sentence 4000
+Checking out sentence 5000
+Checking out sentence 6000
+Checking out sentence 7000
+Checking out sentence 8000
+Utility found Sentence: [This	[POS:DT]	[NE:null]	[CHUNK:B-NP], temblor-prone	[POS:JJ]	[NE:null]	[CHUNK:I-NP], city	[POS:NN]	[NE:null]	[CHUNK:I-NP], dispatched	[POS:VBD]	[NE:null]	[CHUNK:B-VP], inspectors	[POS:NNS]	[NE:null]	[CHUNK:B-NP], ,	[POS:,]	[NE:null]	[CHUNK:O], firefighters	[POS:NNS]	[NE:null]	[CHUNK:B-NP], and	[POS:CC]	[NE:null]	[CHUNK:O], other	[POS:JJ]	[NE:null]	[CHUNK:B-NP], earthquake-trained	[POS:JJ]	[NE:null]	[CHUNK:I-NP], personnel	[POS:NNS]	[NE:null]	[CHUNK:I-NP], to	[POS:TO]	[NE:null]	[CHUNK:B-VP], aid	[POS:VB]	[NE:null]	[CHUNK:I-VP], San	[POS:NNP]	[NE:null]	[CHUNK:B-NP], Francisco	[POS:NNP]	[NE:null]	[CHUNK:I-NP], .	[POS:.]	[NE:null]	[CHUNK:O]]
+T size is :26
+U size is :8910
+8910
+Creating new ensembles with new training set
+Ran 7 iterations, total processed 189 sentences.
+Ran 6 iterations, total processed 138 sentences.
+Ran 6 iterations, total processed 168 sentences.
+Ran 9 iterations, total processed 234 sentences.
+Ran 5 iterations, total processed 105 sentences.
+Test ensemble on test data
+Tested 0 sentences
+Tested 100 sentences
+Tested 200 sentences
+Tested 300 sentences
+Tested 400 sentences
+Tested 500 sentences
+Tested 600 sentences
+Tested 700 sentences
+Tested 800 sentences
+Tested 900 sentences
+Tested 1000 sentences
+Tested 1100 sentences
+Tested 1200 sentences
+Tested 1300 sentences
+Tested 1400 sentences
+Tested 1500 sentences
+Tested 1600 sentences
+Tested 1700 sentences
+Tested 1800 sentences
+Tested 1900 sentences
+Tested 2000 sentences
+Sequence probability used:
+47377.0 47377.0 42299.0
+System total recall: 0.8928171897756295
+System total precision: 0.8928171897756295
+System total F1: 0.8928171897756295
+Individual probability (fb algorithm) used:
+47377.0 47377.0 45108.0
+System total recall: 0.9521075627414146
+System total precision: 0.9521075627414146
+System total F1: 0.9521075627414146
+iteration 7
+Selecting next best sentence to annotate (simulation)
+Checking out sentence 0
+Checking out sentence 1000
+Checking out sentence 2000
+Checking out sentence 3000
+Checking out sentence 4000
+Checking out sentence 5000
+Checking out sentence 6000
+Checking out sentence 7000
+Checking out sentence 8000
+Utility found Sentence: [The	[POS:DT]	[NE:null]	[CHUNK:B-NP], Atlanta-based	[POS:JJ]	[NE:null]	[CHUNK:I-NP], chemical	[POS:NN]	[NE:null]	[CHUNK:I-NP], manufacturer	[POS:NN]	[NE:null]	[CHUNK:I-NP], said	[POS:VBD]	[NE:null]	[CHUNK:B-VP], lower	[POS:JJR]	[NE:null]	[CHUNK:B-NP], prices	[POS:NNS]	[NE:null]	[CHUNK:I-NP], hurt	[POS:VBD]	[NE:null]	[CHUNK:B-VP], margins	[POS:NNS]	[NE:null]	[CHUNK:B-NP], for	[POS:IN]	[NE:null]	[CHUNK:B-PP], most	[POS:RBS]	[NE:null]	[CHUNK:B-NP], products	[POS:NNS]	[NE:null]	[CHUNK:I-NP], .	[POS:.]	[NE:null]	[CHUNK:O]]
+T size is :27
+U size is :8909
+8909
+Creating new ensembles with new training set
+Ran 7 iterations, total processed 224 sentences.
+Ran 6 iterations, total processed 144 sentences.
+Ran 7 iterations, total processed 175 sentences.
+Ran 6 iterations, total processed 150 sentences.
+Ran 4 iterations, total processed 100 sentences.
+Test ensemble on test data
+Tested 0 sentences

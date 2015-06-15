@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.wynnzh.Utils;
 
+import edu.cmu.lti.weizh.data.DATA_PATHS;
 import edu.cmu.lti.weizh.data.DataFactory;
 import edu.cmu.lti.weizh.docmodel.DataSet;
 import edu.cmu.lti.weizh.docmodel.Sentence;
@@ -13,12 +14,16 @@ public class RandomPercLearningDataSet {
 
 	public static void main(String argv[]) throws Exception{
 		
-		DataSet  train = DataFactory.getCONLL2kTrain();
-		DataSet  test = DataFactory.getCONLL2kTest();
+		System.out.print("ONF_ABC_RANDOM SAMPLING");
+		
+//		DataSet  train = DataFactory.getCONLL2kTrain();
+//		DataSet  test = DataFactory.getCONLL2kTest();
+		DataSet train = DataFactory.getONFDataSet(DATA_PATHS.ONF_NBC_TRAIN, true);
+		DataSet test = DataFactory.getONFDataSet(DATA_PATHS.ONF_NBC_TEST, true);
 		
 		List<Sentence> sents = Utils.getSentences(train);
 		
-		ActiveLearner aner = new ActiveLearner(LEARNERTYPE.CONLL2KChunking);
+		ActiveLearner aner = new ActiveLearner(LEARNERTYPE.OntoNotesNewsNER);
 		
 		int T= 1000;int t = 0 ;
 		for (Sentence s : sents) if ((t++)<T){

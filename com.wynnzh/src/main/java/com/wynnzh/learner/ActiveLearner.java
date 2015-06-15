@@ -44,6 +44,7 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, Data
 			thetaHeaders = Theta.getConll2kChunkingthetaHeaders();
 			featureHeaders = Feature.getCONLL2KChunkingFeatureHeaders();
 		case CONLL2kPOS:
+		case NLPBA:
 			thetaHeaders = Theta.getPOSthetaHeaders();
 			featureHeaders = Feature.getPOSfeatureHeaders();
 		case OntoNotesNewsNER:
@@ -63,13 +64,17 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, Data
 	public List<Sentence> getSentences() {
 		return trainedSentences;
 	}
-	public void setSentences( List<Sentence> sent ) {
-		 trainedSentences = sent;
+
+	public void setSentences(List<Sentence> sent) {
+		trainedSentences = sent;
 	}
+
 	@Override
 	protected String getGoldLabel(Word w) {
 
-		if (type.equals(FCONST.LEARNERTYPE.CONLL2kPOS)) {
+		if (type.equals(FCONST.LEARNERTYPE.NLPBA)) {
+			return w.getEntityType();
+		} else if (type.equals(FCONST.LEARNERTYPE.CONLL2kPOS)) {
 			return w.getPartOfSpeech();
 		} else if (type.equals(FCONST.LEARNERTYPE.OntoNotesNewsNER)) {
 			return w.getEntityType();
@@ -136,12 +141,12 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, Data
 		String[] predictions;
 		predictions = getModel().viterbiDecodeAvgParam(thetas, features, denom);
 		Prediction[] predProbs = getModel().maxProductAvgParam(thetas, features, denom);
-		
-		for (int i = 0 ; i < predProbs.length; i++){
+
+		for (int i = 0; i < predProbs.length; i++) {
 			predProbs[i].setBestCandidateName(predictions[i]);
 		}
 		predictions = Prediction2String(predProbs);
-		
+
 		setPredictions(words, predictions);
 
 		return predProbs;
@@ -168,7 +173,7 @@ public class ActiveLearner extends AbstractPercTrain<String, ActiveLearner, Data
 		int denom = getIterationsUsed() * getTotalSentProcessed();
 		iNode[] predictions;
 		predictions = getModel().viterbiDecodeAvgParam(thetas, features, denom, N);
-		String [] strPreds = predictions[0].getSequence();
+		String[] strPreds = predictions[0].getSequence();
 		setPredictions(words, strPreds);
 
 		return predictions;
